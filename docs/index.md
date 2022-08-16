@@ -1,6 +1,8 @@
 # Welcome 💀✨
 
-Its 24 July 2022, and I'm just playing around with `mkdocs` right now. Seems pretty cool!
+~~Its 24 July 2022, and I'm just playing around with `mkdocs` right now. Seems pretty cool!~~
+
+Its 18 Aug 2022, and I put it up on `readthedocs`
 
 We're planning to build a Knowledge Base that roughly follows the ['diataxis framework'](https://diataxis.fr/)
 
@@ -8,6 +10,6 @@ We're planning to build a Knowledge Base that roughly follows the ['diataxis fra
 [https://github.com/freemocap/freemocap](https://github.com/freemocap/freemocap)
 
 We've also got a pretty nice website:
-[https://freemocap.org](https://github.com/freemocap/freemocap)
+[https://freemocap.org](https://freemocap.org)
 
 Work in progress, stay tuned!!

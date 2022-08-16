@@ -1,7 +1,29 @@
 site_name: FreeMoCap Documentation
 
 theme:
-  material
+  name: material
+  logo: assets/skelly_freemocap_logo.png
+  favicon: assets/skelly_freemocap_favicon.ico
+  font:
+    text: Dosis
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/freemocap
+
+    - icon: fontawesome/brands/github
+      link: https://github.com/freemocap/freemocap
+
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/SgdnzbHDTG
+
+    - icon: fontawesome/brands/twitch
+      link: https://twitch.tv/freemocap
+
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/c/jonmatthis
+
 
 nav:
   - 'index.md'
@@ -10,3 +32,4 @@ nav:
   - 'troubleshooting.md'
   - 'glossary.md'
   - 'python_reference.md'
+  - 'Frequently Asked Questions (FAQ).md'
