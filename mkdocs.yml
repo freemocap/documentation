@@ -7,8 +7,8 @@ theme:
 #  font:
 #    text: Dosis
 
-markdown_extensions:
-  - del_ins
+# markdown_extensions:
+#   - del_ins
   
 extra:
   social:
