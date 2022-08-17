@@ -2,7 +2,7 @@
 
 <del>Its 24 July 2022, and I'm just playing around with `mkdocs` right now. Seems pretty cool!</del>
 
-Its 18 Aug 2022, and I put it up on `readthedocs`
+Its 18 Aug 2022, and I put it up on `readthedocs` - Nothing useful in here yet, but like... JUST IMAGINE IF THERE WAS :O 
 
 We're planning to build a Knowledge Base that roughly follows the ['diataxis framework'](https://diataxis.fr/)
 
