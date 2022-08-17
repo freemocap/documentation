@@ -1,7 +1,7 @@
 site_name: FreeMoCap Documentation
 
 theme:
-  name: material
+  name: material-dfuioguer
   logo: assets/skelly_freemocap_logo.png
   favicon: assets/skelly_freemocap_favicon.ico
 #  font:
