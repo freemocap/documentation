@@ -7,6 +7,9 @@ theme:
 #  font:
 #    text: Dosis
 
+# markdown_extensions:
+#   - del_ins
+  
 extra:
   social:
     - icon: fontawesome/brands/twitter
