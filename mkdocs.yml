@@ -4,8 +4,8 @@ theme:
   name: material
   logo: assets/skelly_freemocap_logo.png
   favicon: assets/skelly_freemocap_favicon.ico
- font:
-   text: Dosis
+#  font:
+#    text: Dosis
 
 markdown_extensions:
   - del_ins
