@@ -1,8 +1,6 @@
 
 
-# FreeMoCap FAQ's - Ongoing Draft
-
-[![hackmd-github-sync-badge](https://hackmd.io/orxXYZMRTrOsyYbRiNsX_A/badge)](https://hackmd.io/orxXYZMRTrOsyYbRiNsX_A)
+# FreeMoCap Frequently Asked Questions (FAQ's) - Ongoing Draft
 
 
 **1. When will FreeMoCap Alpha launch?**
@@ -130,4 +128,4 @@ The intuition is that if the 3d reconstruction and original 2d track are perfect
 
 
 
-[Click here to follow a conversation about reporjection error on discord](https://discord.com/channels/760487252379041812/760489602917466133/989189718203838505)
+[Click here to follow a conversation about reprojection error on discord](https://discord.com/channels/760487252379041812/760489602917466133/989189718203838505)
