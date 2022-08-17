@@ -1,6 +1,6 @@
 # Welcome 💀✨
 
-~~Its 24 July 2022, and I'm just playing around with `mkdocs` right now. Seems pretty cool!~~
+<del>Its 24 July 2022, and I'm just playing around with `mkdocs` right now. Seems pretty cool!</del>
 
 Its 18 Aug 2022, and I put it up on `readthedocs`
 
