@@ -4,12 +4,24 @@ theme:
   name: material
   logo: assets/skelly_freemocap_logo.png
   favicon: assets/skelly_freemocap_favicon.ico
-#  font:
-#    text: Dosis
 
-# markdown_extensions:
-#   - del_ins
-  
+# `nav` sets up the stuff on the left panel side bar of the main site
+nav:
+  - 'index.md'
+  - 'about_us.md'
+  - 'tutorials.md'
+  - 'troubleshooting.md'
+  - 'glossary.md'
+  - 'python_reference.md'
+#   - 'frequently_asked_questions_faq.md' #disable until cleaned up
+
+markdown_extensions:
+  - abbr
+  - attr_list
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+
 extra:
   social:
     - icon: fontawesome/brands/twitter
@@ -28,11 +40,3 @@ extra:
       link: https://www.youtube.com/c/jonmatthis
 
 
-nav:
-  - 'index.md'
-  - 'about_us.md'
-  - 'tutorials.md'
-  - 'troubleshooting.md'
-  - 'glossary.md'
-  - 'python_reference.md'
-  - 'frequently_asked_questions_faq.md'
