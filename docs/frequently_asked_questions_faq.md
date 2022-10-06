@@ -1,6 +1,6 @@
 
 
-# FreeMoCap Frequently Asked Questions (FAQ's) - Ongoing Draft
+# FAQ's - Ongoing Draft
 
 
 **1. When will FreeMoCap Alpha launch?**

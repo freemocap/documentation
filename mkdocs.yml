@@ -4,15 +4,21 @@ theme:
   name: material
   logo: assets/skelly_freemocap_logo.png
   favicon: assets/skelly_freemocap_favicon.ico
+  features: 
+    - navigation.tabs
+  palette:
+    scheme: slate
+    primary: deep purple
+    accent: orange
 
 # `nav` sets up the stuff on the left panel side bar of the main site
-nav:
-  - 'index.md'
-  - 'about_us.md'
-  - 'tutorials.md'
-  - 'troubleshooting.md'
-  - 'glossary.md'
-  - 'python_reference.md'
+# nav:
+#   - 'index.md'
+#   - 'about_us.md'
+#   - 'tutorials.md'
+#   - 'troubleshooting.md'
+#   - 'glossary.md'
+#   - 'python_reference.md'
 #   - 'frequently_asked_questions_faq.md' #disable until cleaned up
 
 markdown_extensions:
