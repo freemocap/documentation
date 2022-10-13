@@ -24,9 +24,13 @@ extra_css:
 markdown_extensions:
   - abbr
   - attr_list
+  - md_in_html
   - pymdownx.snippets:
       auto_append:
         - includes/abbreviations.md
+
+plugins:
+  - glightbox
 
 extra:
   social:
