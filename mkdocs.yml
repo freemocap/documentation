@@ -7,10 +7,10 @@ theme:
   features: 
     - navigation.tabs
   palette:
-    scheme: slate
-    primary: deep purple
-    accent: orange
-
+    scheme: freemocap
+extra_css:
+  - stylesheets/extra.css
+  
 # `nav` sets up the stuff on the left panel side bar of the main site
 # nav:
 #   - 'index.md'

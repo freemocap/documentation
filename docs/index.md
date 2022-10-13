@@ -1,4 +1,6 @@
-# Welcome 💀✨
+# Home
+
+## Welcome 💀✨
 
 <del>Its 24 July 2022, and I'm just playing around with `mkdocs` right now. Seems pretty cool!<\del>
 
