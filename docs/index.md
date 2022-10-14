@@ -1,8 +1,9 @@
 # Home
 
 ## Welcome to FreeMoCaP Documentation  
+ 
 
-Welcome to our documentation platform. It's a live work in progress 💀✨.  
+![](assets/skelly_freemocap_favicon.ico) Welcome to our documentation platform. It's a live work in progress 💀✨.  
 
 In addition to this documentation, you can find helpful guidance in the README.md in our main repository:
 [https://github.com/freemocap/freemocap](https://github.com/freemocap/freemocap)
