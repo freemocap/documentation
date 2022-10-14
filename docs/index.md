@@ -1,18 +1,16 @@
 # Home
 
-## Welcome to FreeMoCaP Documentation
+## Welcome to FreeMoCaP Documentation  
 
-Welcome to our documentation platform. It's a live work in progress 💀✨
+Welcome to our documentation platform. It's a live work in progress 💀✨.  
 
-For practicel step-by-step guides, see [Tutorials](Tutorials/Tutorials.md)
-
-We're planning to build a Knowledge Base that roughly follows the ['diataxis framework'](https://diataxis.fr/)
-
-...but until then, I'm just going to point you back to the (`README.md`) in the main repository:
+In addition to this documentation, you can find helpful guidance in the README.md in our main repository:
 [https://github.com/freemocap/freemocap](https://github.com/freemocap/freemocap)
 
 We've also got a pretty nice website:
 [https://freemocap.org](https://freemocap.org)
 
-Work in progress, stay tuned!!
-:)
+For practical beginner guides, check out our [Tutorials](Tutorials/Tutorials.md). 
+
+For more advanced task specific guides, you'll find our [How-to Guides](How%20to%20Guides/How_to_Guides.md) helpful.  
+
