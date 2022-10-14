@@ -1,9 +1,11 @@
+# Home
 
-# Welcome
+## Welcome to FreeMoCaP Documentation
 
 Welcome to our documentation platform. It's a live work in progress 💀✨
 
-For practicel step-by-step guides, see [Tutorials] and or [How]
+For practicel step-by-step guides, see [Tutorials](Tutorials/Tutorials.md)
+
 We're planning to build a Knowledge Base that roughly follows the ['diataxis framework'](https://diataxis.fr/)
 
 ...but until then, I'm just going to point you back to the (`README.md`) in the main repository:

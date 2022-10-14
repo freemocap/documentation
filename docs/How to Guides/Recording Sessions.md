@@ -1,6 +1,7 @@
-# How to Guides
 
-## HOW TO REPROCESS A PREVIOUSLY RECORDED `FreeMoCap` RECORDING SESSION
+# Recording Sessions  
+
+## REPROCESS A PREVIOUSLY RECORDED `FreeMoCap` SESSION
 
 You can re-start the processing pipeline from any of the following processing stages (defined below)by specifying the `SessionID` desired `stage` in the call to `freemocap.RunMe()`
 
