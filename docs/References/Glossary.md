@@ -55,4 +55,25 @@ The intuition is that if the 3d reconstruction and original 2d track are perfect
 
 
 
-[Click here to follow a conversation about reprojection error on discord](https://discord.com/channels/760487252379041812/760489602917466133/989189718203838505)
+[Click here to follow a conversation about reprojection error on discord](https://discord.com/channels/760487252379041812/760489602917466133/989189718203838505)  
+
+## motion capture
+## markerless motion capture
+## kinematic data
+## 3D trajectory
+## reprojection error
+## capture volume
+## camera intrinsics
+## camera extrinsics
+## translation
+## rotation
+## matrix
+## charuco board
+## calibration
+## framerate
+## frustum
+## field of view
+## epipolar geometry
+## 2-dimensional data
+## 3-dimensional data
+## origin
