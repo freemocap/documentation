@@ -8,4 +8,3 @@ Here we describe how the important components of this software functions.
 
 ## Blender Output
 
-## Base of Support

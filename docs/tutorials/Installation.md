@@ -1,5 +1,6 @@
 # Installation
- Installation
+
+## Setting up your system to use freemocap
 Open an Anaconda-enabled command prompt or powershell window and perform the following steps:
 
 1) Create a Python3.7 Anaconda environment

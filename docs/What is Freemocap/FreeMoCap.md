@@ -1,4 +1,6 @@
-#About Us
+# What Do We Do?
+
+## The FreeMoCap Project
 
 The Free Motion Capture Project (FreeMoCap) aims to provide research-grade markerless motion capture software to everyone for free.
 
@@ -17,4 +19,6 @@ A high-quality, minimal-cost motion capture system would be a transformative too
 
 ✨💀✨
 </center>
-(copied from [https://freemocap.org](https://freemocap.org))
+
+---
+
