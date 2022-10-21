@@ -6,11 +6,10 @@ theme:
   favicon: assets/skelly_freemocap_favicon.ico
   features: 
     - navigation.tabs
-  palette:
-    scheme: slate
-    primary: deep purple
-    accent: orange
 
+extra_css:
+  - stylesheets/extra.css
+  -
 # `nav` sets up the stuff on the left panel side bar of the main site
 # nav:
 #   - 'index.md'
