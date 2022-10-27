@@ -2,9 +2,9 @@
 
 <del>Its 24 July 2022, and I'm just playing around with `mkdocs` right now. Seems pretty cool!<\del>
 
-Its 17 Aug 2022, and I put it up on `readthedocs` 👽
+<del>Its 17 Aug 2022, and I put it up on `readthedocs` 👽 </del>
  
-Its 23 Aug 2022, and I just made another changs :O 
+<del>Its 23 Aug 2022, and I just made another changs :O </del> 
 
 We're planning to build a Knowledge Base that roughly follows the ['diataxis framework'](https://diataxis.fr/)
 
@@ -15,3 +15,4 @@ We've also got a pretty nice website:
 [https://freemocap.org](https://freemocap.org)
 
 Work in progress, stay tuned!!
+:)
