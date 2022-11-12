@@ -27,7 +27,8 @@ markdown_extensions:
   - pymdownx.snippets:
       auto_append:
         - includes/abbreviations.md
-
+  - pymdownx.tasklist:
+      custom_checkbox: true
 extra:
   social:
     - icon: fontawesome/brands/twitter
