@@ -20,6 +20,7 @@ nav:
    - 'index.md'
    - 'about_us.md'
    - 'how_to_guides.md'
+   - 'roadmap.md'
 markdown_extensions:
   - abbr
   - attr_list
