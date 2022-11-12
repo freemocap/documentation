@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Roadmap 
 
 ## In preparation for `v0.1.0 alpha GUI` release 
