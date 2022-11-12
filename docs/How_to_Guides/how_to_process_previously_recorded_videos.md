@@ -3,7 +3,8 @@
 
 Here's a workflow you can use to pre-process videos recorded with the `pre-alpha (<=v0.0.54)` using the `alpha` 
 
-## Step 1 - Run the GUI  ( https://github.com/freemocap/freemocap#how-to-run-the-alpha-gui ) : 
+## Step 1 - Run the GUI  
+Instructions here - https://github.com/freemocap/freemocap#how-to-run-the-alpha-gui 
 
 - run  `python src/gui/main/main.py` in a terminal with the proper environment activated
 -  a GUI should pop up that looks like this: 

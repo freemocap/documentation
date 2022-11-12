@@ -6,20 +6,20 @@ theme:
   favicon: assets/skelly_freemocap_favicon.ico
   features: 
     - navigation.tabs
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
 
 extra_css:
   - stylesheets/extra.css
-  -
-# `nav` sets up the stuff on the left panel side bar of the main site
-# nav:
-#   - 'index.md'
-#   - 'about_us.md'
-#   - 'tutorials.md'
-#   - 'troubleshooting.md'
-#   - 'glossary.md'
-#   - 'python_reference.md'
-#   - 'frequently_asked_questions_faq.md' #disable until cleaned up
 
+nav:
+   - 'index.md'
+   - 'about_us.md'
+   - 'how_to_guides.md'
 markdown_extensions:
   - abbr
   - attr_list
