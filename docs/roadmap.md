@@ -1,5 +1,6 @@
 # Roadmap 
 
+## In preparation for `v0.1.0 alpha GUI` release 
 - [ ] Fix the Blender output
     - Probably going to build something based on the methods developed in @cgtinker's `BlendArMocap` add-on
 
@@ -20,7 +21,8 @@
     - [ ] for folder structure (e.g. 'completeness')
     - [ ] for accuracy of post processing pipeline (e.g. 'kinematic diagnostics')
     - [ ] for camera recording quality (e.g. 'timestamp diagnostics')
-- [ ] New architecture for `v0.2.0`
-    - [ ] Simple textual/TUI mothership that launches wizards
-    - [ ] built from central paramater dict/yaml/json
+    - 
+- [ ] New architecture for `v0.2.0 TUI Mothership` realease
+    - [ ] Simple textual/TUI mothership terminal based app that launches `qt` wizards for each recording/processing stage
+    - [ ] built from central parameter dict/yaml/json
 
