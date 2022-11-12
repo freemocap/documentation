@@ -1,9 +1,13 @@
 # "How to" Guides  
 
-[How to calibrate your capture volume]()  
+[How to process pre-recorded synchronized videos with `alpha` GUI]( How_to_Guides/how_to_process_previously_recorded_videos.md)
 
-[How to choose your cameras]()  
+## Links to chapters of this video - https://youtu.be/GxKmyKdnTy0
 
-[How to set up your capture volume]()  
+[How to choose your cameras](https://www.youtube.com/watch?v=GxKmyKdnTy0&t=524s)  
+
+[How to calibrate your capture volume](https://www.youtube.com/watch?v=GxKmyKdnTy0&t=788s)  
+
+ 
 
  

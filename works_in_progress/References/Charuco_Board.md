@@ -4,7 +4,7 @@ ___
 
   * IMPORTANT The Charuco board shown to the camera MUST be generated with the `cv2.aruco.DICT_4X4_250` dictionary! 
   
-  * Ah high resoultion `png` of this Charuco board is in this repository at `/charuco_board_image_highRes.png`
+  * A high resoultion `png` of this Charuco board is in this repository at `/charuco_board_image_highRes.png`
 * 
   * To generate your own board, use the following python commands (or equivalent). DO NOT CHANGE THE PARAMETERS OR THE CALIBRATION WILL NOT WORK:
 	``` python
