@@ -8,17 +8,17 @@ Here's a workflow you can use to pre-process videos recorded with the `pre-alpha
 - run  `python src/gui/main/main.py` in a terminal with the proper environment activated
 -  a GUI should pop up that looks like this: 
   
-![](https://hackmd.io/_uploads/HJuHd8nHj.png)
+![image](https://user-images.githubusercontent.com/15314521/201449304-4a26d703-e971-404f-81f4-a70d042f9e66.png)
 
 ## Step 2 - Import videos:
 - Select `Import Synchronized Videos ` (or `ctrl+I`)
-- ![](https://hackmd.io/_uploads/rJPz9InSi.png)
+![image](https://user-images.githubusercontent.com/15314521/201449317-e91de387-7bb2-45a2-9313-d267b2b84b4f.png)
 
 ## Step 2a - create `session_id`
 
-Optional - Add a tag to the `session_id` dialog to identify which videos you will import, so it looks like 
+Optional - Add a tag to the `session_id` dialog to identify which videos you will import, so it looks like  
     - NOTE - don't use spaces in the `session_id`
-![](https://hackmd.io/_uploads/HJ_boU2ro.png)
+![image](https://user-images.githubusercontent.com/15314521/201449323-7298a998-2a8f-416e-a00f-245721a9c862.png)
 
 ## Step 2b - select folder of synchronized videos
 - click `Select set of synchronized videos...` button
