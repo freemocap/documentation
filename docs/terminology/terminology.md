@@ -1,15 +1,21 @@
-# Glossary
+# Terminology
 
 ## Capture Volume
 3-dimensional area (volume) with sufficient camera coverage to support 3D tracking.
 
 ## Calibration
-
+[Link to a section of the 'braindump' video discussing capture volume calibration](https://www.youtube.com/watch?v=GxKmyKdnTy0&t=1785s)
 ## Charuco Board
+[Link to a section of the 'braindump' video discussing capture volume calibration](https://www.youtube.com/watch?v=GxKmyKdnTy0&t=1615s)
 
 ## Media pipe
 
+https://google.github.io/mediapipe/solutions/holistic
+
 ## Processing Stages
+This is a brief description of each of the processing 'stages' necessary to use a bunch of USB webcams to reconstruct the 3D kinematic (i.e. mocap) data of the human subject! 
+
+Some parts refer to the folder and function names of the `pre-alpha` version of the code, but the concepts are mostly the same in the `alpha` version.
 
  - **Stage 1 - Record Videos**
    -  Record raw videos from attached USB webcams and timestamps for each frame 
@@ -52,7 +58,7 @@ The intuition is that if the 3d reconstruction and original 2d track are perfect
 -  the original 2d tracks (i.e. bad skeleton detection in one or more cameras), 
 -  in the 3d reconstruction (i.e. bad camera calibration), 
 - a combination of the two
-
+ 
 
 
 [Click here to follow a conversation about reprojection error on discord](https://discord.com/channels/760487252379041812/760489602917466133/989189718203838505)
