@@ -7,6 +7,7 @@ comments: true
 ## In preparation for `v0.1.0 alpha GUI` release 
 - [ ] Fix the Blender output
     - Probably going to build something based on the methods developed in @cgtinker's `BlendArMocap` add-on
+      - [link to notes on this topic](https://github.com/freemocap/notes_plans_scratchpad/blob/main/works_in_progress_notes/2022-11-13_blender_addon.md)
 
 - [ ] Fix the cameras
     - `alpha` GUI starts lagging after about 3 cameras on a fast PC because cameras are run by threads (which compete for CPU with the GUI, vs the pre-alpha where it was all Terminal)
