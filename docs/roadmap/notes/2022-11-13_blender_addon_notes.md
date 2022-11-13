@@ -1,5 +1,8 @@
 # freemocap blender addon 
 
+[![hackmd-github-sync-badge](https://hackmd.io/KZ3coCS0RTGWGlwfNHFiuA/badge)](https://hackmd.io/KZ3coCS0RTGWGlwfNHFiuA)
+
+
 ## Strategy
 - Based on fork of - https://github.com/cgtinker/blendarmocap
 1. figure out what was happening on `freemocap` branch of above
