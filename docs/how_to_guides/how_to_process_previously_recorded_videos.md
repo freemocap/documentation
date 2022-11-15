@@ -33,10 +33,6 @@ Instructions here - https://github.com/freemocap/freemocap#how-to-run-the-alpha-
 - click `Select set of synchronized videos...` button
 - Select the folder full of synchronized videos
 
-> NOTE: Do not select the session folder, we want the `SyncedVideos` folder (which is *within* the session folder), like in this image below
-
- ![image](../../../../../../../../C:/Users/Trent/Desktop/github/freemocap_documentation/docs/assets/Record-Process-Visualize%20Motion%20Capture%20Data_select%20set%20of%20synchronized%20videos_folder_screenshot.png)
-
  > HINT: To import the videos from a `freemocap` session recorded with the pre-alpha, select the `[freemoap_data]/[session_id]/SynchedVideos` folder
 
  > NOTE: Videos should all have *exactly* the same number of frames and the frames should be synchronized with each other
