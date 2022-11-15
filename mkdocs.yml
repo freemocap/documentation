@@ -2,7 +2,7 @@ site_name: FreeMoCap Documentation
 
 theme:
   name: material
-  logo: assets/skelly_freemocap_logo.png
+  logo: assets/fmc-logo-transparent-bkgd.png
   favicon: assets/skelly_freemocap_favicon.ico
   features: 
     - navigation.tabs
