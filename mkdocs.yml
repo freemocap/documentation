@@ -21,9 +21,9 @@ custom_dir: overrides
 nav:
    - 'index.md'
    - 'about_us.md'
-   - 'how_to_guides/how_to_guides.md'
+   - 'how_to_guides/index.md'  # an index of clickable links to various guides
    - 'terminology/terminology.md'
-   - 'roadmap/roadmap.md'
+   - 'roadmap/roadmap.md'  # actually the roadmap
    
 markdown_extensions:
   - abbr
