@@ -1,8 +1,8 @@
 :root > * {
-  --md-primary-fg-color:        #365d5f; 
+  --md-primary-fg-color:        #5c96af; 
   /* 
   good colors
-  skelly bone blue: #8abdd3
+  skelly bone blue: #5c96af
   */
   --md-primary-fg-color--light: #A4D6D9;
   --md-primary-fg-color--dark:  #d95157;

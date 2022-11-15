@@ -19,13 +19,11 @@ Instructions here - https://github.com/freemocap/freemocap#how-to-run-the-alpha-
 
 ![image](https://user-images.githubusercontent.com/15314521/201449317-e91de387-7bb2-45a2-9313-d267b2b84b4f.png)
 
-## Step 2a - Create `session_id` folder to house processed data
+## Step 2a - Create `session_id`
 
 - Optional - Add a tag to the `session_id` dialog to identify which videos you will import. 
 
-> EXAMPLE: The GUI will automatically generate a Session Id for you, `session_2022-11-11-18_18_13` in the image below. You might want to add to the folder name to specify which videos you will be processing in *this session*, like this: `session_2022-11-11-18_18_13_processing_session-11-11-17_14_14` <- indicating that you are processing videos recorded from another day at another time.
-
-> NOTE: Don't use spaces in the `session_id`, use underscores `_` or dashes `-` to break up words instead
+> **WARNING**: Don't use spaces in the `session_id`, use underscores `_` or dashes `-` to break up words instead
 
 ![image](https://user-images.githubusercontent.com/15314521/201449323-7298a998-2a8f-416e-a00f-245721a9c862.png)
 
@@ -43,9 +41,9 @@ Instructions here - https://github.com/freemocap/freemocap#how-to-run-the-alpha-
 - Select `Load Camera Calibration .tomle file...` option
 - Load in the `...camera_calibration.toml` file from a previously recorded session 
 ### Option 2 - Process calibration videos in `GUI`
-- With `New Calibration Videos` option selected, click `Calibration Capture Volume from Videos` button
+- With `Calibrate 'from synchronized_videos' folder` option selected, click `Calibration Capture Volume from Videos` button
 
-> DEV NOTE: **WARNING** I don't think option 2 works at the moment
+> You should only select this option if your video contains a charuco board calibration within it. TRENT NOTE: link to the part of the youtube video that talks about the charuco board
 
 ## Step 4 - Process Videos
 - set processing parameters however you like 
@@ -57,8 +55,8 @@ Instructions here - https://github.com/freemocap/freemocap#how-to-run-the-alpha-
 ## Step 5 - Visualize data!
 
 ### Option #1 - If all went well, the GUI may have automatically opened Blender with your motion capture data pre-loaded
-    - if not, make sure the blener executable location is specified correclty
-    - You can re-launch the `blender export` process with the `Export to Blender` button
+- if not, make sure the blener executable location is specified correclty
+- You can re-launch the `blender export` process with the `Export to Blender` button
 
 ### Option #2 - Enter the `4-Visualize Motion Capture Data` tab
 
