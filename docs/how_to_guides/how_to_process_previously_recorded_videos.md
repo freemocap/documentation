@@ -23,7 +23,7 @@ Detailed instructions on how to run the GUI using anaconda can be found [on our 
   
 ![image](https://user-images.githubusercontent.com/15314521/201449304-4a26d703-e971-404f-81f4-a70d042f9e66.png)
 
-## Step 2 - Import videos
+## Step 2 - Import Videos
 - Select `Import Synchronized Videos ` (or `ctrl+I`).
 
 ![image](https://user-images.githubusercontent.com/15314521/201449317-e91de387-7bb2-45a2-9313-d267b2b84b4f.png)
