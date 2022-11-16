@@ -28,6 +28,9 @@ nav:
 markdown_extensions:
   - abbr
   - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.snippets:
       auto_append:
         - includes/abbreviations.md
