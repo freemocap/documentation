@@ -32,11 +32,11 @@
 }
 .md-typeset .admonition.take-note,
 .md-typeset details.take-note {
-  border-color: rgb(86, 215, 210);
+  border-color: rgb(37, 67, 66);
 }
 .md-typeset .take-note > .admonition-title,
 .md-typeset .take-note > summary {
-  background-color: rgb(86, 215, 210, 0.60);
+  background-color: rgba(51, 128, 125, 0.6);
 }
 .md-typeset .take-note > .admonition-title::before,
 .md-typeset .take-note > summary::before {
