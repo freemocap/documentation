@@ -10,7 +10,7 @@
 
 
 :root {
-  --md-admonition-icon--pre-alpha: url('../assets/skull-solid.svg')
+  --md-admonition-icon--pre-alpha: url('../assets/skull-sparkle.svg')
 }
 .md-typeset .admonition.pre-alpha,
 .md-typeset details.pre-alpha {
