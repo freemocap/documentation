@@ -43,9 +43,7 @@ This `session_id` is created based on the date and time that you began this sess
 
 - **Optional** - add a tag to the `session_id` dialog to identify which videos you will import. 
 
-!!! warning
-
-    Do not use spaces in the `session_id`, use underscores `_` or dashes `-` to break up words instead.
+!!! warning "Warning: Do not use spaces in the `session_id`, use underscores `_` or dashes `-` to break up words instead."
 
 ![eample of session_id and tag](https://user-images.githubusercontent.com/15314521/201449323-7298a998-2a8f-416e-a00f-245721a9c862.png)
 
