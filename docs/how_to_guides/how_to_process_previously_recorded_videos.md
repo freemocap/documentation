@@ -27,12 +27,12 @@ This is a workflow you can use to process **any** pre-recorded & synchronized vi
 
 -  A GUI should pop up that looks like this: 
   
-![image](https://user-images.githubusercontent.com/15314521/201449304-4a26d703-e971-404f-81f4-a70d042f9e66.png)
+![freemocap gui screenshot](https://user-images.githubusercontent.com/62706609/202561983-eaa16963-423c-47dd-990c-72385378b0e6.png)
 
 ## Step 2 - Import Videos
 - Select `Import Synchronized Videos ` (or `ctrl+I`).
 
-![image](https://user-images.githubusercontent.com/15314521/201449317-e91de387-7bb2-45a2-9313-d267b2b84b4f.png)
+![Import Synch'd Videos Button](https://user-images.githubusercontent.com/15314521/201449317-e91de387-7bb2-45a2-9313-d267b2b84b4f.png)
 
 ### 2.1 - Create `session_id`
 !!! info inline end 
@@ -47,7 +47,7 @@ This `session_id` is created based on the date and time that you began this sess
 
     Do not use spaces in the `session_id`, use underscores `_` or dashes `-` to break up words instead.
 
-![image](https://user-images.githubusercontent.com/15314521/201449323-7298a998-2a8f-416e-a00f-245721a9c862.png)
+![eample of session_id and tag](https://user-images.githubusercontent.com/15314521/201449323-7298a998-2a8f-416e-a00f-245721a9c862.png)
 
 ### 2.2 - Select folder of synchronized videos
 
