@@ -5,7 +5,8 @@ This is the official and most up-to-date place to find documentation for FreeMoC
 If you're looking for a quick start, head on over to our ["How to" Guides](how_to_guides/index.md) page!
 
 ??? info "Looking for a video tutorial?"
-    Check out Jon's [brain dumpy video](https://youtu.be/GxKmyKdnTy0) where he covers everything you need to know to get started using freemocap! 
+    A 'start to finish' tutorial will be available 'soon!' In the mean time, check out [this (rough) video](https://youtu.be/GxKmyKdnTy0) which  provides a broad overview of some of the topics relevant to camera-based markerless motion capture. 
+    
     *Look at the video chapters for specific topics.*
     
     The video will be greatly supplemented by the documentation found here! Occasionally, we'll link to the video in our documentation, as well :)
