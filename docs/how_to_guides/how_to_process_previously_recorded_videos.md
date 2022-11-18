@@ -35,9 +35,9 @@ This is a workflow you can use to process **any** pre-recorded & synchronized vi
 ![Import Synch'd Videos Button](https://user-images.githubusercontent.com/15314521/201449317-e91de387-7bb2-45a2-9313-d267b2b84b4f.png)
 
 ### 2.1 - Create `session_id`
-!!! info inline end 
+!!! take-note inline end "The terminal is your friend!"
 
-    Throughout each step of this process, watch terminal for valuable feedback about the processing steps and progress bars.
+    Throughout each step of this process, watch the terminal (the one you launched the GUI from) for valuable feedback about the processing steps and progress bars.
 
 This `session_id` is created based on the date and time that you began this session (format: `session_YYYY-MM-DD_HH_MM_SS`) will be the name of the folder that will house the data from this session. It will be located in your user directory in a folder called `freemocap_data/[session_id]`
 
@@ -116,5 +116,13 @@ This `session_id` is created based on the date and time that you began this sess
 - If all went well, the GUI may have automatically opened Blender with your motion capture data pre-loaded, and you should be done!
     - If not, double check to make sure the blender executable location is specified correctly.
     - You can re-launch the `Export to Blender` process with the `Generate '.blend' file` button.
+
+!!! finished "You're Done! Next Steps?"
+
+    If you've gotten this far, you've most likely produced a visualization of your mocap! Hooray! What next? 
+
+    - Join our [Discord](https://discord.gg/8fAyFFGPnW) to share videos and screenshots, and to talk with devs if you need some help!
+    - Share your success on any social media platform with the `#madewithfreemocap` tag!
+    - Take a break, because you've earned it :D
 
 [def]: docs/

@@ -62,3 +62,21 @@
   -webkit-mask-image: var(--md-admonition-icon--blender);
           mask-image: var(--md-admonition-icon--blender);
 }
+
+:root {
+  --md-admonition-icon--finished: url('../assets/icons/skull-smile.svg')
+}
+.md-typeset .admonition.finished,
+.md-typeset details.finished {
+  border-color: rgb(248, 4, 208);
+}
+.md-typeset .finished > .admonition-title,
+.md-typeset .finished > summary {
+  background-color: rgba(248, 4, 208, 0.5);
+}
+.md-typeset .finished > .admonition-title::before,
+.md-typeset .finished > summary::before {
+  background-color: rgb(253, 253, 253);
+  -webkit-mask-image: var(--md-admonition-icon--finished);
+          mask-image: var(--md-admonition-icon--finished);
+}
