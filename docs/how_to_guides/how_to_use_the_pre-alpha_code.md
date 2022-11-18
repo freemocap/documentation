@@ -5,7 +5,7 @@
 
     We're switching over to the `alpha` phase of this project (`v0.1.0` and on) , which use full refactor code written with help from a professional experienced software architect. 
 
-    Until the new code stabilizes, you may have more luck using the `pre-alpha` code (e.g. `v0.0.54`). If you'd like to try and use the `alpha` GUI, you can start [with this How-To-Guide](how_to_run_the_alpha_gui.md).
+    Until the new code stabilizes, you may have more luck using the `pre-alpha` code (e.g. `v0.0.54`). If you'd like to try and use the `alpha` GUI, you can start [with this How-To-Guide](how_to_install_and_run_the_alpha_gui.md).
 
 ## Installing the `pre-alpha`
 
