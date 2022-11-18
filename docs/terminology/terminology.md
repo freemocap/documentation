@@ -8,7 +8,7 @@
 ## Charuco Board
 [Link to a section of the 'braindump' video discussing capture volume calibration](https://www.youtube.com/watch?v=GxKmyKdnTy0&t=1615s)
 
-## Media pipe
+## Mediapipe
 
 https://google.github.io/mediapipe/solutions/holistic
 

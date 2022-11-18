@@ -2,7 +2,7 @@ site_name: FreeMoCap Documentation
 
 theme:
   name: material
-  logo: assets/skelly_freemocap_logo.png
+  logo: assets/fmc-logo-transparent-bkgd.png
   favicon: assets/skelly_freemocap_favicon.ico
   features: 
     - navigation.tabs
@@ -21,13 +21,16 @@ custom_dir: overrides
 nav:
    - 'index.md'
    - 'about_us.md'
-   - 'how_to_guides/how_to_guides.md'
+   - 'how_to_guides/index.md'  # an index of clickable links to various guides
    - 'terminology/terminology.md'
-   - 'roadmap/roadmap.md'
+   - 'roadmap/roadmap.md'  # actually the roadmap
    
 markdown_extensions:
   - abbr
   - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.snippets:
       auto_append:
         - includes/abbreviations.md
