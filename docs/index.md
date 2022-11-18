@@ -1,7 +1,7 @@
 # Welcome 💀✨
 
 
-At the moment, the closest thing we have to proper docs is this brain dumpy video - https://youtu.be/GxKmyKdnTy0 (check the chapters for specific topics)
+At the moment, the closest thing we have to proper docs is [this brain dumpy video](https://youtu.be/GxKmyKdnTy0) (check the chapters for specific topics)
 
 
 
