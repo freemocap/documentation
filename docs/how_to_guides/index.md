@@ -1,6 +1,9 @@
 # "How to" Guides  
 
 ## Text and pictures
+
+### [How to use the `pre-alpha`](how_to_use_the_pre-alpha_code.md)
+### [How to install and run the `alpha` GUI](how_to_install_and_run_the_alpha_gui)
 ### [How to process pre-recorded synchronized videos with `alpha` GUI]( how_to_process_previously_recorded_videos.md)
 
 
