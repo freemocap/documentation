@@ -4,7 +4,7 @@ theme:
   name: material
   logo: assets/fmc-logo-transparent-bkgd.png
   favicon: assets/skelly_freemocap_favicon.ico
-  features: 
+  features:
     - navigation.tabs
     - navigation.instant
     - navigation.tracking
@@ -19,12 +19,12 @@ extra_css:
 custom_dir: overrides
 
 nav:
-   - 'index.md'
-   - 'about_us.md'
-   - 'how_to_guides/index.md'  # an index of clickable links to various guides
-   - 'terminology/terminology.md'
-   - 'roadmap/roadmap.md'  # actually the roadmap
-   
+  - 'index.md'
+  - 'about_us.md'
+  - 'how_to_guides/index.md'  # an index of clickable links to various guides
+  - 'terminology/terminology.md'
+  - 'roadmap/roadmap.md'  # actually the roadmap
+
 markdown_extensions:
   - abbr
   - attr_list
@@ -53,4 +53,5 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/c/jonmatthis
 
-
+plugins:
+  - mkdocs-video
