@@ -1,7 +1,7 @@
 # Welcome 💀✨
 
 
-At the moment, the closest thing we have to proper docs is this brain dumpy video - https://youtu.be/GxKmyKdnTy0 (check the chapters for specific topics)
+At the moment, the closest thing we have to proper docs is [this brain dumpy video](https://youtu.be/GxKmyKdnTy0) (check the chapters for specific topics)
 
 
 
@@ -13,9 +13,9 @@ We've also got a pretty nice website:
 
 If you run into trouble, your best bet is to either:
 
-- Post an Issue in the `freemocap` repository: https://github.com/freemocap/freemocap/issues   
+- Post an Issue in the `freemocap` repository: [https://github.com/freemocap/freemocap/issues](https://github.com/freemocap/freemocap/issues)   
 
-- Join the Discord and ask a question in the #help-requests channel: https://discord.gg/P2nyraRYjb
+- Join the Discord and ask a question in the #help-requests channel: [Click here to join our Discord](https://discord.gg/P2nyraRYjb)
 
 
 Work in progress, stay tuned!!
