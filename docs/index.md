@@ -17,8 +17,6 @@ If you're looking for a quick start, head on over to our ["How to" Guides](how_t
 - Support FreeMoCap by [donating to our non-profit](https://freemocap.org/about-us.html#donate) that supports our work!
 ## Troubleshooting?
 
-If you run into trouble, your best bet is to either:
-
 - If you run into an issue using the software itself, post an issue on our GitHub, here: [https://github.com/freemocap/freemocap/issues](https://github.com/freemocap/freemocap/issues)   
 - If there's an error in our documentation, post an issue on our documentation repository, here: [https://github.com/freemocap/documentation/issues](https://github.com/freemocap/documentation/issues)
 
