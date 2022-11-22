@@ -58,6 +58,7 @@ Again, please note: *This tutorial is for the pre-alpha version of freemocap and
 ```
 (freemocap-gui)$ python src/gui/main/main.py
 ```
+---
 
 Okay! everything is installed and now you're ready to [create and process freemocap recordings.](Create_New_FreeMoCap_Recording_Session.md)
 
