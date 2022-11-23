@@ -1,12 +1,13 @@
-## Charuco Board Information
+# Charuco Board Information
 ___
   * Our calibration method relies on [Anipose](https://anipose.org)'s [Charuco-based](https://docs.opencv.org/3.4/df/d4a/tutorial_charuco_detection.html) calibration method to determine the location of each camera during a recording session. This information is later used to create the 3d reconstruction of the tracked points
 
   * IMPORTANT The Charuco board shown to the camera MUST be generated with the `cv2.aruco.DICT_4X4_250` dictionary! 
   
   * Ah high resoultion `png` of this Charuco board is in this repository at `/charuco_board_image_highRes.png`
-* 
-  * To generate your own board, use the following python commands (or equivalent). DO NOT CHANGE THE PARAMETERS OR THE CALIBRATION WILL NOT WORK:
+
+## Generate your own charuco board
+  * Use the following python commands (or equivalent). DO NOT CHANGE THE PARAMETERS OR THE CALIBRATION WILL NOT WORK:
 	``` python
 	import cv2
 	
