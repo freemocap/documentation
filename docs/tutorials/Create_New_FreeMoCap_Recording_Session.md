@@ -26,28 +26,60 @@ You'll do some final tweaking of the camera orientation as you go through the ca
 
 ## Calibration
 
-### **1.) Open the Freemocap GUI**
+**Calibration is most helpful to do with a second person.**
 
+### **1.) Open up Freemocap**
+
+#### **Alpha Version:**
 This process is a little jenky right now, we're working to clean this up, but here it is. 
 
-Open up the terminal and activate the freemocap-gui environment. You created this environment when you installed the software, according to [this tutorial](Freemocap_Software_Installation.md).
+1.  Open up the terminal and activate the freemocap-gui environment. You created this environment when you installed the software, according to [this tutorial](Freemocap_Software_Installation.md).
 ```
 (base) $ conda activate freemocap-gui
 (freemocap-gui)
 ```
-Now you'll need to point your terminal towards whichever location you git cloned the repository to when you followed the [sofware installation tutorial](Freemocap_Software_Installation.md). If you forgot, locate the freemocap folder on your machine (it's a folder called freemocap) and then copy the folder path. Then you can paste it into the terminal using the command 'cd' before it. 
+2. Now you'll need to point your terminal towards whichever location you git cloned the repository to when you followed the [sofware installation tutorial](Freemocap_Software_Installation.md). If you forgot, locate the freemocap folder on your machine (it's a folder called freemocap) and then copy the folder path. Then you can paste it into the terminal using the command 'cd' before it. 
 ```
 (freemocap-gui) $ cd freemocap
 ```
-Now you'll run the .py file that will start the alpha GUI. 
+3. Now you'll run the .py file that will start the alpha GUI. 
 ```
 (freemocap-gui) python src/gui/main/main.py
 ```
 And there you have it, the alpha GUI should pop up in its own window on your machine. 
 
+#### **Pre-alpha version:**
+
+1. Activate the pre-alpha freemocap environment. If you followed [these installation instructions](Freemocap_Software_Installation.md), then you would have already made this environment, and all you need to do now is to activate it. If you haven't made this environment yet, please refer back to those intallation instructions and create an environment with the pre-alpha version of freemocap (freemocap version 0.0.54, python version 3.7). 
+
+```
+(base) $ conda activate freemocap-env
+(freemocap-env)
+```
+2. Create an ipython instance inside your terminal. The output of the command below will tell you what version of python is running, it should be version 3.7. 
+```
+(freemocap-env) $ ipython
+```
+3. Import freemocap and run the RunMe.py file. **This is where you set the charruco square size**, which is the length of one of the charucco board sqaures, in millimeteres. Yes, you need to measure this because this number changes depending on how large your printed out charuco board is. 
+```
+In [1]: import freemocap
+In [2]: freemocap.RunMe(charucoSquareSize=126)
+```
+4. A small grey GUI box will appear with the number of cameras that the software detects (If you have three cameras and a built in laptop camera, you'd see 0, 1, 2, 3). Select all cameras, toggle into 'Setup' mode, and click 'Submit'. 
+
+
+
 ### **2.) Create New Session:**
 
-On the GUI, click the "Create New Session" Button. 
+- On the GUI, click the "Create New Session" Button. This will give you the option to name your session. You're welcome to name it whatever you like, although an auto-generated one will be made for you, with the format year, month, day, hour, second of creation. 
+- Click 'Start Session'
+- You should now see viewing panes for each camera, including your built in laptop comaera, if you have one. If you have a laptop camera, on the left hand side of the GUI, **unselect your laptop camera**. 
+- Here's your chance to mess with the camera settings. The most prominant ones are lighting and resolution. 
+We'll create a how-to guide for camera settings soon. 
+- Here's where the second person comes in handy, have them stand in the spot where they want to be doing the to-be-recorded movement. While they stand there, you can adjust the cameras such that:
+   1.   All cameras have that person in their view, with overlapping fields of view. 
+   2.  All cameras views will encompass the entire activity of the person. 
+   3. Ideally, cameras are oriented in portrait mode, but that's not totally necessary. 
  
 ## Recording movement
 ## 

@@ -94,7 +94,9 @@ USB-C 3.1 vs USB 2.0? And do you use a USB hub to connect all the cameras?
 
 ### **What kind of cameras should I use?**
 
-1. The short answer is that it depends and you have many options.  Our team will either use [these USB webcams](https://www.amazon.com/Streaming-Microphone-Widescreen-Conferencing-Recording/dp/B082X91MPP) (easy set up but gives us less data) or we'll use GoPro's (more challending post production workflow, but gives us more data). 
+Here is an explanation on [Camera Selection.](../How%20to%20Guides/Camera_selection.md)
+
+
 2. [What resolution camera should I chose? 720? 1080?](https://www.amazon.com/Streaming-Microphone-Widescreen-Conferencing-Recording/dp/B082X91MPP)
 
 ### **Using GoPro's with freemocap**

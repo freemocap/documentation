@@ -1,0 +1,1 @@
+# How to adjust camera settings within freemocap. 
