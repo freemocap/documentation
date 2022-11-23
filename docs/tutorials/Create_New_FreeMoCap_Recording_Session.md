@@ -38,7 +38,7 @@ This process is a little jenky right now, we're working to clean this up, but he
 (base) $ conda activate freemocap-gui
 (freemocap-gui)
 ```
-2. Now you'll need to point your terminal towards whichever location you git cloned the repository to when you followed the [sofware installation tutorial](Freemocap_Software_Installation.md). If you forgot, locate the freemocap folder on your machine (it's a folder called freemocap) and then copy the folder path. Then you can paste it into the terminal using the command 'cd' before it. 
+2. Now you'll need to point your terminal towards whichever location you git cloned the repository to when you followed the [software installation tutorial](Freemocap_Software_Installation.md). If you forgot, locate the freemocap folder on your machine (it's a folder called freemocap) and then copy the folder path. Then you can paste it into the terminal using the command 'cd' before it. 
 ```
 (freemocap-gui) $ cd freemocap
 ```
@@ -50,22 +50,60 @@ And there you have it, the alpha GUI should pop up in its own window on your mac
 
 #### **Pre-alpha version:**
 
-1. Activate the pre-alpha freemocap environment. If you followed [these installation instructions](Freemocap_Software_Installation.md), then you would have already made this environment, and all you need to do now is to activate it. If you haven't made this environment yet, please refer back to those intallation instructions and create an environment with the pre-alpha version of freemocap (freemocap version 0.0.54, python version 3.7). 
+1. **Activate the pre-alpha freemocap environment.** If you followed [this software installation tutorial](Freemocap_Software_Installation.md), then you would have already made this environment, and all you need to do now is to activate it. If you haven't made this environment yet, please refer back to those intallation instructions and create an environment with the pre-alpha version of freemocap (freemocap version 0.0.54, python version 3.7). 
 
 ```
 (base) $ conda activate freemocap-env
 (freemocap-env)
 ```
-2. Create an ipython instance inside your terminal. The output of the command below will tell you what version of python is running, it should be version 3.7. 
+2. **Create an ipython instance inside your terminal.** The output of the command below will tell you what version of python is running, it should be version 3.7. 
 ```
 (freemocap-env) $ ipython
 ```
-3. Import freemocap and run the RunMe.py file. **This is where you set the charruco square size**, which is the length of one of the charucco board sqaures, in millimeteres. Yes, you need to measure this because this number changes depending on how large your printed out charuco board is. 
+3. **Import freemocap and run the RunMe.py file.** **This is where you set the charruco square size**, which is the length of one of the charucco board sqaures, in millimeteres. Yes, you need to measure this because this number changes depending on how large your printed out charuco board is. 
 ```
 In [1]: import freemocap
 In [2]: freemocap.RunMe(charucoSquareSize=126)
 ```
-4. A small grey GUI box will appear with the number of cameras that the software detects (If you have three cameras and a built in laptop camera, you'd see 0, 1, 2, 3). Select all cameras, toggle into 'Setup' mode, and click 'Submit'. 
+4. **Open Camera Settings.** A small grey GUI box will appear with the number of cameras that the software detects (If you have three cameras and a built in laptop camera, you'd see 0, 1, 2, 3). Select all cameras, toggle into 'Setup' mode, and click 'Submit'. 
+
+5. **Select camera settings.** You're likely not going to get all this right the first try. So just know that you can affect:
+   - Camera view rotation
+   - Resolution width and height
+      - 1280 x 720 (w x h) is a great place to start and is the default for pre-alpha. 
+   - Exposure
+      - adjusting this will lighten or darken the video feed. Adjust this so that the video feed looks as normal as possible (Not too dark and not too light). What you set the exposure to will depend on the location of your recording and now much light there already is. 
+   - Frames per second
+      - don't bother changing this. 
+   - CODEC
+      - don't bother changing this. 
+
+6. **Observe and adjust camera settings.** Once camera settings are selected, click the 'Submit' button. You should see all your cameras viewing panes popup. Each pane will be numbered as camera 0, camera 1, etc. If any of them are crashing, please refer to [this troubleshooting guide for calibration errors.](../How%20to%20Guides/Troubleshooting_Guides.md)
+
+```
+Notice how your camera views all look. You want to get your settings right before you procede with the calibration. You may do a few rounds of adjustments and that's fine. So, if something is off (see bullet points below):
+
+   - press 'quit' and all the viewing panes will disappear to be replaced with a small grey GUI. 
+
+   - select 'Change Parameters' to go back to the settings adjustment GUI. 
+
+   - Adjust your settings according to what you observed. 
+   
+   - Select 'Submit' in the settings adjustment pane and you should see your video viewing panes pop back up. 
+
+   - Verify your adjustments worked, repeat this adjustment process if necessary.  
+```
+
+   - [Here's what to do if you notice one of the video panes is coming from your laptops built in webcam](../How%20to%20Guides/Troubleshooting_Guides.md##Builtin-laptop-camera-is-being-picked-up-by-freemocap)
+
+
+
+   - Once you can view each cameras viewing pane, **this is a great time to label your cameras so they're easier to refer to in the future.** Figure out which camera is camera 1, and mark the camera and the USB cable (colored tape, etc), do that for each camera. It'll help you stay organized, trust us. 
+   
+   - Take note of any cameras you may need to rotate the viewing pane so that you're **Recoring in a portraight orientation**. This will be best for recording humans to maximize the amount of pixel data for your recorded movement. 
+   
+   - You want the lighting to look the same in all cameras. You will only be able to adjust exposure for all of them, not each individually. If one of the cameras exposure is markedly different, you may need to physically move the camera, cover a window, unscrew a light bulb, etc to affect the lighting in that area. You'll be able to adjust this setting before moving forward in the calibration process. 
+
 
 
 
