@@ -94,7 +94,7 @@ USB-C 3.1 vs USB 2.0? And do you use a USB hub to connect all the cameras?
 
 ### **What kind of cameras should I use?**
 
-Here is an explanation on [Camera Selection.](../How%20to%20Guides/Camera_selection.md)
+Here is an explanation on [Camera Selection.](../How%20to%20Guides/Cameras_and_Equipment.md)
 
 
 2. [What resolution camera should I chose? 720? 1080?](https://www.amazon.com/Streaming-Microphone-Widescreen-Conferencing-Recording/dp/B082X91MPP)

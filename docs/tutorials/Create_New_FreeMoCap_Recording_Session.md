@@ -48,6 +48,18 @@ This process is a little jenky right now, we're working to clean this up, but he
 ```
 And there you have it, the alpha GUI should pop up in its own window on your machine. 
 
+4. **Create New Session:**
+
+- On the GUI, click the "Create New Session" Button. This will give you the option to name your session. You're welcome to name it whatever you like, although an auto-generated one will be made for you, with the format year, month, day, hour, second of creation. 
+- Click 'Start Session'
+- You should now see viewing panes for each camera, including your built in laptop comaera, if you have one. If you have a built in laptop camera, on the left hand side of the GUI, **unselect your laptop camera**. 
+- Here's your chance to mess with the camera settings. The most prominant ones are lighting and resolution. 
+We'll create a how-to guide for camera settings soon. 
+- Here's where the second person comes in handy, have them stand in the spot where they want to be doing the to-be-recorded movement. While they stand there, you can adjust the cameras such that:
+   1.   All cameras have that person in their view, with overlapping fields of view. 
+   2.  All cameras views will encompass the entire activity of the person. 
+   3. Ideally, cameras are oriented in portrait mode, but that's not totally necessary. 
+
 #### **Pre-alpha version:**
 
 1. **Activate the pre-alpha freemocap environment.** If you followed [this software installation tutorial](Freemocap_Software_Installation.md), then you would have already made this environment, and all you need to do now is to activate it. If you haven't made this environment yet, please refer back to those intallation instructions and create an environment with the pre-alpha version of freemocap (freemocap version 0.0.54, python version 3.7). 
@@ -103,21 +115,6 @@ Notice how your camera views all look. You want to get your settings right befor
    - Take note of any cameras you may need to rotate the viewing pane so that you're **Recoring in a portraight orientation**. This will be best for recording humans to maximize the amount of pixel data for your recorded movement. 
    
    - You want the lighting to look the same in all cameras. You will only be able to adjust exposure for all of them, not each individually. If one of the cameras exposure is markedly different, you may need to physically move the camera, cover a window, unscrew a light bulb, etc to affect the lighting in that area. You'll be able to adjust this setting before moving forward in the calibration process. 
-
-
-
-
-### **2.) Create New Session:**
-
-- On the GUI, click the "Create New Session" Button. This will give you the option to name your session. You're welcome to name it whatever you like, although an auto-generated one will be made for you, with the format year, month, day, hour, second of creation. 
-- Click 'Start Session'
-- You should now see viewing panes for each camera, including your built in laptop comaera, if you have one. If you have a laptop camera, on the left hand side of the GUI, **unselect your laptop camera**. 
-- Here's your chance to mess with the camera settings. The most prominant ones are lighting and resolution. 
-We'll create a how-to guide for camera settings soon. 
-- Here's where the second person comes in handy, have them stand in the spot where they want to be doing the to-be-recorded movement. While they stand there, you can adjust the cameras such that:
-   1.   All cameras have that person in their view, with overlapping fields of view. 
-   2.  All cameras views will encompass the entire activity of the person. 
-   3. Ideally, cameras are oriented in portrait mode, but that's not totally necessary. 
  
 ## Recording movement
 ## 
