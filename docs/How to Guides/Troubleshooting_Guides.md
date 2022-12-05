@@ -45,6 +45,15 @@ Your CPU may be overloaded.
 
 What other infomration may be needed here? 
 
+## Recovering from a crash during calibration
+**1. Problem**
+
+**2. Solution**
+
+**3. Causes**
+
+**4. Related info**
+
 ---
 ## Builtin laptop camera is being picked up by freemocap 
 
@@ -61,6 +70,7 @@ The following specific solution is for the pre-alpha version 0.0.54:
 When you run the freemocap.RunMe(charucoSquareSize=?) command in your terminal or IDE. 
 
 This camera selection window will pop up:
+![](../assets/Pre_alpha_camera_selection.png)
 
 If you have plugged three cameras into three different usb ports on your machine, but your machine also has a built in laptop camera, you'll have four cameras available as shown above. You likely won't know which camera is which yet so, select all of them, make sure setup is selected rather than record, and click 'Submit'.
 That will bring you to this: 
@@ -78,9 +88,4 @@ Now you'll have to rerun the runme.freemocap.py file. Once you do that, the came
 If there are any other settings you want to change based on what you're seeing in your camera viewing panes. Press quit to exit out of the viewing panes, and then when the new window pops up with options to "Change Folder Path", "Change Parameters", "Proceed to Recording" or "Quit". Select "Change Parameters" to go back to the settings selection window. 
 
 **3. Cause(s):**
-
-Freemocap will pick up any camera connected to your machine. Even ones you don't want to record with. 
-
 **4. Related info:**
-
-Isn't this fun?

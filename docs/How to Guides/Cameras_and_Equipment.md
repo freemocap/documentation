@@ -1,4 +1,4 @@
-# Required Equipment
+# Cameras and Equipment
 
 ## Which camera's should I use?
 
