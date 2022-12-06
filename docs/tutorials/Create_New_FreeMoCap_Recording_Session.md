@@ -24,13 +24,11 @@ You'll do some final tweaking of the camera orientation as you go through the ca
 
 ---
 
-## Calibration
+## **Camera placement and settings adjustment**
 
-Calibration is most helpful to do with a second person.
+This process is most helpful to do with a second person. 
 
-### **Camera placement and settings adjustment**
-
-#### **Alpha Version:**
+### **Alpha Version:**
 This process is a little jenky right now, we're working to clean this up, but here it is. 
 
 1.  Open up the terminal and activate the freemocap-gui environment. You created this environment when you installed the software, according to [this tutorial](Freemocap_Software_Installation.md).
@@ -60,7 +58,7 @@ We'll create a how-to guide for camera settings soon.
    2.  All cameras views will encompass the entire activity of the person. 
    3. Ideally, cameras are oriented in portrait mode, but that's not totally necessary. 
 
-#### **Pre-alpha version:**
+### **Pre-alpha version:**
 
 1. **Activate the pre-alpha freemocap environment.** If you followed [this software installation tutorial](Freemocap_Software_Installation.md), then you would have already made this environment, and all you need to do now is to activate it. If you haven't made this environment yet, please refer back to those intallation instructions and create an environment with the pre-alpha version of freemocap (freemocap version 0.0.54, python version 3.7). 
 
@@ -97,7 +95,7 @@ Notice how your camera views all look. You want to get your settings right befor
 
    - press 'quit' and all the viewing panes will disappear to be replaced with a small grey GUI. 
 
-   - select 'Change Parameters' to go back to the settings adjustment GUI. 
+   - On the GUI that pops back up, select 'Change Parameters' to go back to the settings adjustment GUI. 
 
    - Adjust your settings according to what you observed. 
    
@@ -135,11 +133,26 @@ Once you're happy with your camera set up and settings, you can transition to re
 
 ---
 
-## Recording Calibration Videos with Charuco Board
+## Calibration Videos
 
+1. **Get out your friendly [charuco board](../References/Charuco_Board.md).** Remember, as mentioned in the beginning of this tutorial, you need to know the length of your one side of one of the solid black charuco squares **in milimeters**, and you need to have entered this as a parameter into the runme, [like this](../References/Charuco_Board.md).
 
-## Looking at Timestamp Diagnostics
-## Recovering from a crash
- 
+2. If you have any camera viewing panes still open, quit them all out till the options GUI pops up again. Select 'Change Parameters' one more time, make sure all your settings are still as you'd like them to be (perhaps write them down for later reference). Click 'Submit' and the viewing panes will all pop up again. 
+
+3. **Make sure the charuco board is being noticed by the cameras.** Take the charuco board into the capture volume space (the overlapping field of view of all the cameras) and show it to all the cameras. Slowly rotate the board from side to side so that all the cameras see it really well. This is where it's helpful to have one person hold the board while another watches the computer screen to see what happens. If the board is being tracked, this is what you should see: ![](../assets/charuco_tracking.png)
+
+**For the calibration to work, it is not the case for all cameras to see the board at the same time. Instead, at least two of the cameras bust be clearly seeing the board at any given time. This allows the software to figure out the cameras position, rotation, and correct for lense distortion.**
+
+4. **Record the calibration videos**. 
+   - Once you have verified that the cameras are seeing and tracking the board as described above, quit out of the video viewing panes till the options GUI pops up again. 
+   - You're about to record the calibration videos. So, it's advised to add the word 'calibration' to the end of the file path name in the GUI. 
+   - Select the 'Begin Recording' button. 
+   - At this recording stage, the video viewing panes will pop up **without being rotated** and they also don't draw the yellow lines / pink dots on the board like it did in the set up stage. Don't worry, this is fine. 
+   - Slowly show the charuco board thoroughly for a few seconds to each camera (up, down, left, right). For more details on good charuco boar technique, [see this guide.](../How%20to%20Guides/Calibration_protocol.md)
+   - Once you're satisfied each camera has thoroughly seen the charuco board, quit out of all the video viewing panes. You'll see the diagnostic window pop up. Review the diagnostics before selecting 'procede'. 
+
+---
+
+## Looking at Timestamp Diagnostics 
 ## Recording movement
-## 
+
