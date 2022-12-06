@@ -119,7 +119,7 @@ Notice how your camera views all look. You want to get your settings right befor
 **You need to make sure the entire movement you're recording will be in frame of each camera.** 
 
    This is bad: ![](../assets/Bad_Setup.png)
-   This is good: ![](../assets/Good_setup.png)
+   This is good: Although it could be a little better if the fingers were completely visible. ![](../assets/Good_setup.png)
 
 8. **Adjusting Lighting** 
    -  You want the lighting to look the same in all cameras. You will only be able to adjust exposure for all of them, not each individually. If one of the cameras exposure is markedly different, you may need to physically move the camera, cover a window, unscrew a light bulb, etc to affect the lighting in that area. You'll be able to adjust this setting before moving forward in the calibration process.
@@ -130,8 +130,16 @@ Notice how your camera views all look. You want to get your settings right befor
 
       -  **To increase exposure (make it brighter)**, increase the number (so, going from -7 to -6, for example).
       - **To decrease exposure (make is darker)**, decrease the number (so, going from -7 to -8, for example). 
+---
 
-### Charruco Board
+## Charruco Board
+
+The charuco board is a known object of known shape and geometry that is designed to be very easily tracked by computer vision. This is essential for calibrating the different camera's to each be "measuring" the same thing and allows us to quantify the movement of the person. 
+
+**When you run your calibration, you'll need to specify the size of the charuco squares (one of the sides of one of the black squares), in milimeters.** 
+
+The default values in freemocap assume your charuco board is printed on an 8.5 x 11 inch sheet of paper (standard printer paper). 
+
 ### Recording Calibration Videos
 ### Looking at Timestamp Diagnostics
 ### Recovering from a crash
