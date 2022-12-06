@@ -72,7 +72,7 @@ We'll create a how-to guide for camera settings soon.
 ```
 (freemocap-env) $ ipython
 ```
-3. **Import freemocap and run the RunMe.py file.** **This is where you set the charruco square size**, which is the length of one of the charucco board sqaures, in millimeteres. Yes, you need to measure this because this number changes depending on how large your printed out charuco board is. 
+3. **Import freemocap and run the RunMe.py file.** **This is where you set the charruco square size**, which is the length of one of the black charucco board sqaures, in millimeteres. Yes, you need to measure this because this number changes depending on how large your printed out charuco board is. 
 ```
 In [1]: import freemocap
 In [2]: freemocap.RunMe(charucoSquareSize=126)
@@ -130,19 +130,16 @@ Notice how your camera views all look. You want to get your settings right befor
 
       -  **To increase exposure (make it brighter)**, increase the number (so, going from -7 to -6, for example).
       - **To decrease exposure (make is darker)**, decrease the number (so, going from -7 to -8, for example). 
+
+Once you're happy with your camera set up and settings, you can transition to recording the calibration videos themselves, hooray :) 
+
 ---
 
-## Charruco Board
+## Recording Calibration Videos with Charuco Board
 
-The charuco board is a known object of known shape and geometry that is designed to be very easily tracked by computer vision. This is essential for calibrating the different camera's to each be "measuring" the same thing and allows us to quantify the movement of the person. 
 
-**When you run your calibration, you'll need to specify the size of the charuco squares (one of the sides of one of the black squares), in milimeters.** 
-
-The default values in freemocap assume your charuco board is printed on an 8.5 x 11 inch sheet of paper (standard printer paper). 
-
-### Recording Calibration Videos
-### Looking at Timestamp Diagnostics
-### Recovering from a crash
+## Looking at Timestamp Diagnostics
+## Recovering from a crash
  
 ## Recording movement
 ## 
