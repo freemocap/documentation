@@ -89,3 +89,6 @@ If there are any other settings you want to change based on what you're seeing i
 
 **3. Cause(s):**
 **4. Related info:**
+
+---
+## Timestamp Diagnostics: Cameras Don't Have the Same Frame Rate 

@@ -5,7 +5,7 @@ In order to follow this tutorial, you'll need to have already successfully [inst
 
 *This tutorial will use the pre-alpha version of freemocap and (version 0.0.54) to record the synchronized videos and then load them into the alpha version of freemocap to process them. That's just the status of things for now folks. We'll update things as they change. 
 
-## Setting Up your Equipment
+## Step 1: Initial Equipment Setup
 
 You'll want to set up your cameras in a semi circle such that their fields of view are partially overlapping. That overlapping field of view is going to define what's called the **"Capture Volume"**, which is the 3D space in the room that you can get a good recording of someone doing something. So, what ever action you're recording, each camera needs to have that person in its view. 
 
@@ -24,7 +24,7 @@ You'll do some final tweaking of the camera orientation as you go through the ca
 
 ---
 
-## **Camera placement and settings adjustment**
+## ** Step2: Camera placement and settings adjustment**
 
 This process is most helpful to do with a second person. 
 
@@ -133,7 +133,7 @@ Once you're happy with your camera set up and settings, you can transition to re
 
 ---
 
-## Calibration Videos
+## Step3: Recording Calibration Videos
 
 1. **Get out your friendly [charuco board](../References/Charuco_Board.md).** Remember, as mentioned in the beginning of this tutorial, you need to know the length of your one side of one of the solid black charuco squares **in milimeters**, and you need to have entered this as a parameter into the runme, [like this](../References/Charuco_Board.md).
 
@@ -153,6 +153,12 @@ Once you're happy with your camera set up and settings, you can transition to re
 
 ---
 
-## Looking at Timestamp Diagnostics 
+## Step 4: Looking at Timestamp Diagnostics 
+
+1. **Top left: Frame rate**
+
+Frame number vs time. You want all camera lines to be on top of each other like below. If these lines aren't on top of each other, try this troubleshooting guide:
+
+![](../assets/Framerate_graph.png) 
 ## Recording movement
 
