@@ -19,21 +19,12 @@ Your CPU may be overloaded.
 
 What other infomration may be needed here? 
 
-## Recovering from a crash during calibration
-**1. Problem**
-
-**2. Solution**
-
-**3. Causes**
-
-**4. Related info**
-
 ---
-## Builtin laptop camera is being picked up by freemocap 
+## Unwanted Builtin laptop camera
 
 **1. Problem:**
 
-During calibration, you'll see the number of cameras 
+During calibration, when you get to select your cameras, you'll see more cameras available than you have plugged in. One of them will be your built in laptop webcam. This guide will help you identify which one that is and not select it during calibration. 
 
 **2. Solution:**
 
@@ -65,6 +56,8 @@ If there are any other settings you want to change based on what you're seeing i
 
 **3. Cause(s):**
 
+Talk to Jon. Why does this happen? 
 
 **4. Related info:**
 
+Talk to Jon. Link to fast camera capture? 
