@@ -46,10 +46,12 @@ freemocap.RunMe()
 
     COOL KIDS will install Blender ([blender.org](https://blender.org) and generate an awesome `.blend` file animation by setting `useBlender=True`: 
 
-```python
-import freemocap
-freemocap.RunMe(useBlender=True)
-```
+    ```python
+    import freemocap
+    freemocap.RunMe(useBlender=True)
+    ```
+
+
 
 **For additional, more detailed instructions (including methods to re-process recorded sessions), [refer to the `OLD_README.md` document](https://github.com/freemocap/freemocap/blob/main/OLD_README.md))**
 
