@@ -11,12 +11,13 @@ If you're looking for a quick start, head on over to our ["How to" Guides](how_t
     
     The video will be greatly supplemented by the documentation found here! Occasionally, we'll link to the video in our documentation, as well :)
 
-## Helpful Links
+## Useful Links
 
 - The FreeMoCap Website [https://freemocap.org](https://freemocap.org)
 - The FreeMoCap GitHub [https://github.com/freemocap/freemocap](https://github.com/freemocap/freemocap)
 - Support FreeMoCap by [donating to our non-profit](https://freemocap.org/about-us.html#donate) that supports our work!
-## Troubleshooting?
+
+## Need Help?
 
 - If you run into an issue using the software itself, post an issue on our GitHub, here: [https://github.com/freemocap/freemocap/issues](https://github.com/freemocap/freemocap/issues)   
 - If there's an error in our documentation, post an issue on our documentation repository, here: [https://github.com/freemocap/documentation/issues](https://github.com/freemocap/documentation/issues)
