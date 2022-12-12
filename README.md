@@ -63,6 +63,29 @@ Each of the Admonitions have a unique aesthetic and serve a specific purpose:
 
 ![warning_admonition](https://user-images.githubusercontent.com/62706609/202797732-7d7e8556-5d9e-4008-907e-bce50fb272c6.png)
 
+---
 
+## Guide to Troubleshooting Contributions
 
+The following troubleshooting guides follow this outline:
+    
+    # General Error Category
+
+    ## More Specific Description of Error
+
+**1. Problem**
+    
+    - Provide a clear, concise description of the problem the user is trying to solve. Who, what, when, where?  
+
+**2. Solution(s)**
+
+    - Provide an ordered list of steps to guide someone through the solution. Copy and paste useful parts of the error codes. (No screen shots. Ideally, we want to be able to search the error codes themselves).
+
+**3. Cause(s)**
+
+    - A highlevel paragraph of why the error happened. 
+
+**4. Related info**
+    
+    - A more indepth reason why the error occured. 
 
