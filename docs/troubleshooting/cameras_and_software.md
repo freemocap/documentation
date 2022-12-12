@@ -1,4 +1,4 @@
-# Calibration Errors
+# Cameras and Software Setup
 
 ## Cameras crashing during calibration, pre-alpha version 0.0.54
 

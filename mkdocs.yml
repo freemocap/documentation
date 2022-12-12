@@ -25,6 +25,7 @@ nav:
   - 'terminology/terminology.md'
   - 'roadmap/roadmap.md'  # actually the roadmap
   - 'troubleshooting/index.md'
+    - 'troubleshooting/cameras_and_software.md'
 
 markdown_extensions:
   - abbr
@@ -56,3 +57,4 @@ extra:
 
 plugins:
   - mkdocs-video
+  - search
