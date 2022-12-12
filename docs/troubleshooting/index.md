@@ -1,3 +1,3 @@
 # Troubleshooting
 
-### [Calibration Errors](calibration_errors.md)
+### [SetUp: Cameras and Software](cameras_and_software.md)
