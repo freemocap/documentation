@@ -47,7 +47,7 @@ comments: true
 
 ### Desired workflow
 
-!!! take-note "NOTE - This is the *desired* workflow, not the *current* one lol"
+!!! take-note "NOTE - This is the *DESIRED* workflow, not the *current* one lol :joy:"
 
 
 #### Install and launch `FreeMoCap` software 

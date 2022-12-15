@@ -4,12 +4,11 @@ This is the official and most up-to-date place to find documentation for FreeMoC
 
 If you're looking for a quick start, head on over to our ["How to" Guides](how_to_guides/index.md) page!
 
-??? info "Looking for a video tutorial?"
-    A 'start to finish' tutorial will be available 'soon!' In the mean time, check out [this (rough) video](https://youtu.be/GxKmyKdnTy0) which  provides a broad overview of some of the topics relevant to camera-based markerless motion capture. 
+??? info "These docs are a work in progress! Better tutorials/walkthroughs/etc coming soon!"
     
-    *Look at the video chapters for specific topics.*
-    
-    The video will be greatly supplemented by the documentation found here! Occasionally, we'll link to the video in our documentation, as well :)
+    We are very close to out `v0.1.0` release, and there will be a new round of tutorials/walk-throughs/etc released around then.  
+
+    In the mean time, check out [this (rough) video](https://youtu.be/GxKmyKdnTy0) which  provides a broad overview of some of the topics relevant to camera-based markerless motion capture ( *HINT - Look at the video chapters for specific topics.*)
 
 ## Helpful Links
 
