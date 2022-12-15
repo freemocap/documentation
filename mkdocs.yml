@@ -8,8 +8,7 @@ theme:
     - navigation.tabs
     - navigation.instant
     - navigation.tracking
-    - navigation.tabs
-    - navigation.tabs.sticky
+#    - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
 
@@ -36,6 +35,12 @@ markdown_extensions:
         - includes/abbreviations.md
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - toc:
+      permalink: true
+      toc_depth: 3
 extra:
   social:
     - icon: fontawesome/brands/twitter
