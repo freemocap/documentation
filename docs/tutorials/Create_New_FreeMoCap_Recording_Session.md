@@ -1,5 +1,5 @@
 
- #  Create a New FreeMoCap Recording Session
+ #  Create a New Freemocap Recording Session
 
 In order to follow this tutorial, you'll need to have already successfully [installed the software.](Freemocap_Software_Installation.md)
 
