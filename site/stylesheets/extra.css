@@ -1,0 +1,82 @@
+:root > * {
+  --md-primary-fg-color:        #5c96af; 
+  /* 
+  good colors
+  skelly bone blue: #5c96af
+  */
+  --md-primary-fg-color--light: #254342;
+  --md-primary-fg-color--dark:  #d95157;
+}
+
+
+:root {
+  --md-admonition-icon--tip-full-width: url('../assets/icons/skull-sparkle.svg')
+}
+.md-typeset .admonition.tip-full-width,
+.md-typeset details.tip-full-width {
+  border-color: rgb(37, 67, 66);
+}
+.md-typeset .tip-full-width > .admonition-title,
+.md-typeset .tip-full-width > summary {
+  background-color: rgba(92, 150, 175, 0.60);
+}
+.md-typeset .tip-full-width > .admonition-title::before,
+.md-typeset .tip-full-width > summary::before {
+  background-color: rgb(255, 255, 255);
+  -webkit-mask-image: var(--md-admonition-icon--tip-full-width);
+          mask-image: var(--md-admonition-icon--tip-full-width);
+}
+
+:root {
+  --md-admonition-icon--take-note: url('../assets/icons/pencil-solid.svg')
+}
+.md-typeset .admonition.take-note,
+.md-typeset details.take-note {
+  border-color: rgb(37, 67, 66);
+}
+.md-typeset .take-note > .admonition-title,
+.md-typeset .take-note > summary {
+  background-color: rgba(51, 128, 125, 0.6);
+}
+.md-typeset .take-note > .admonition-title::before,
+.md-typeset .take-note > summary::before {
+  background-color: rgb(37, 67, 66);
+  -webkit-mask-image: var(--md-admonition-icon--take-note);
+          mask-image: var(--md-admonition-icon--take-note);
+}
+
+:root {
+  --md-admonition-icon--blender: url('../assets/icons/blender_icon.svg')
+}
+.md-typeset .admonition.blender,
+.md-typeset details.blender {
+  border-color: rgb(217, 185, 81);
+}
+.md-typeset .blender > .admonition-title,
+.md-typeset .blender > summary {
+  background-color: rgb(230, 124, 14, .5);
+}
+.md-typeset .blender > .admonition-title::before,
+.md-typeset .blender > summary::before {
+  background-color: rgb(2, 2, 2);
+  -webkit-mask-image: var(--md-admonition-icon--blender);
+          mask-image: var(--md-admonition-icon--blender);
+}
+
+:root {
+  --md-admonition-icon--finished: url('../assets/icons/skull-smile.svg')
+}
+.md-typeset .admonition.finished,
+.md-typeset details.finished {
+  border-color: rgb(248, 4, 208);
+}
+.md-typeset .finished > .admonition-title,
+.md-typeset .finished > summary {
+  background-color: rgba(248, 4, 208, 0.5);
+}
+.md-typeset .finished > .admonition-title::before,
+.md-typeset .finished > summary::before {
+  background-color: rgb(253, 253, 253);
+  -webkit-mask-image: var(--md-admonition-icon--finished);
+          mask-image: var(--md-admonition-icon--finished);
+}
