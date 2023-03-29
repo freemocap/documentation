@@ -23,6 +23,7 @@ nav:
   - 'how_to_guides/index.md'  # an index of clickable links to various guides
   - 'terminology/terminology.md'
   - 'roadmap/roadmap.md'  # actually the roadmap
+  - 'privacy_policy.md'
 
 markdown_extensions:
   - abbr
