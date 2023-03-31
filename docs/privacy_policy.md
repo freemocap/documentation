@@ -6,7 +6,7 @@ User data helps us understand how we can make our software better for you and al
 
 ## Collection of Anonymous User Data
 
-If you check the "Send User Pings" check box on the main page of the GUI, we will collect anonymous user data when you use our software. This information is sent to us as a "ping" of data [posted](https://requests.readthedocs.io/en/latest/user/quickstart/#post-a-multipart-encoded-file) to [pipedream](https://pipedream.com/) every time the software is used. 
+If you check the "Send anonymous usage information" check box on the main page of the GUI, we will collect anonymous user data when you use our software. This information is sent to us as a "ping" of data [posted](https://requests.readthedocs.io/en/latest/user/quickstart/#post-a-multipart-encoded-file) to [pipedream](https://pipedream.com/) every time the software is used. 
 
 The data we currently collect includes:
 
@@ -16,7 +16,7 @@ The data we currently collect includes:
 
 You can view the code that collects this data [here](https://github.com/freemocap/freemocap/blob/main/freemocap/system/user_data/pipedream_pings.py).
 
-If you do not wish to share your data, you may turn off "pings" at any point in time. To turn off user pings, uncheck the "Send User Pings" box on the home screen of the FreeMoCap GUI.
+If you do not wish to share your data, you may turn off "pings" at any point in time. To turn off user pings, uncheck the "Send anonymous usage information" box on the home screen of the FreeMoCap GUI.
 
 ## Protection of User Data
 
@@ -24,7 +24,7 @@ We take the protection of your data seriously and will not sell or distribute an
 
 ## Your Control Over Your Data
 
-As a user of our software, you have control over your data. You can choose to turn off "pings" at any point in time by unchecking the "Send User Pings" box on the home screen of the FreeMoCap GUI.
+As a user of our software, you have control over your data. You can choose to turn off "pings" at any point in time by unchecking the "Send anonymous usage information" box on the home screen of the FreeMoCap GUI.
 
 If you wish to have your user data deleted, you may contact us at info AT freemocap DOT org.
 
