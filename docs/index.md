@@ -1,14 +1,15 @@
 # Welcome Skele-Friend! 💀✨
 
-This is the official and most up-to-date place to find documentation for FreeMoCap. We're slowly building a Knowledge Base that roughly follows the ['diataxis framework'](https://diataxis.fr/). Our documentation is very much a work in progress, so we appreciate your patience, support, and engagement!
+This is the official and most up-to-date place to find documentation for the FreeMoCap project.
 
-If you're looking for a quick start, head on over to our ["How to" Guides](how_to_guides/index.md) page!
+Our documentation is very much a work in progress, so we appreciate your patience, support, and engagement!
 
-??? info "These docs are a work in progress! Better tutorials/walkthroughs/etc coming soon!"
-    
-    We are very close to out `v0.1.0` release, and there will be a new round of tutorials/walk-throughs/etc released around then.  
+!!! tip-full-width "Quick start: Take me to the skeletons!""
+     Head on over to our [Tutorials](./Tutorials/index.md) section and work through the [Single-Camera Recording](./Tutorials/single_camera_recording.md) walkthrough.
 
-    In the mean time, check out [this (rough) video](https://youtu.be/GxKmyKdnTy0) which  provides a broad overview of some of the topics relevant to camera-based markerless motion capture ( *HINT - Look at the video chapters for specific topics.*)
+
+
+
 
 ## Helpful Links
 
@@ -22,3 +23,24 @@ If you're looking for a quick start, head on over to our ["How to" Guides](how_t
 
 - Join the Discord and ask a question in the #help-requests channel.
     - [Click here to join our Discord](https://discord.gg/P2nyraRYjb)
+
+[[Introduction to FreeMoCap -  A Free Open Source Markerless Motion Capture System]]
+
+[[Prerequisites for Using FreeMoCap]]
+
+[[Getting a good recording - Setting up your recording environment]]
+
+[[Making your first Skelly - Single-Camera Recording]]
+
+[[Multi-Camera Calibration Guide]]
+
+
+## Community documents
+-  [[Code of Conduct]]
+-  [[Python Code Style Guide]]
+-  [[Contributing to the FreeMoCap Project]]
+
+## GitHub template stuff
+-  Issue Template (Bug Report)
+-  Issue Template (Feature Request)
+-  Pull Request Template

@@ -24,7 +24,7 @@ Open an [Anaconda-enabled command prompt](https://www.anaconda.org) (or equivale
 
 1) Create a `Python3.8+` environment 
 ```bash
-conda create -n freemocap-env python=3.9
+conda create -n freemocap-env python=3.10
 ```
 
 2) Activate that newly created environment
@@ -48,5 +48,5 @@ pip install -e .
 
 6) Launch the GUI (via the `freemocap.__main__.py` entry point)
 ```bash
-python -m freemocap
+freemocap
 ```

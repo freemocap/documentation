@@ -28,25 +28,20 @@ TO DO - Add code samples for each guideline (along with links to external refere
 4. **Private methods and attributes**: Use leading underscores to denote private methods and attributes in classes, and  
    use `@property` decorators when appropriate.  
   
-5. **Descriptive names**: Use full words in variable and class names instead of abbreviations (e.g., `database` instead  
-   of `db`).  
+5. **Descriptive names**: Use full words in variable and class names instead of abbreviations (e.g., `database` instead   of `db`).  
   
-6. **PEP8 and `black` formatting**: Follow PEP8 and `black` code formatting guidelines to maintain consistency and  
-   readability.  
+6. **PEP8 and `black` formatting**: Follow PEP8 and `black` code formatting guidelines to maintain consistency and  readability.  
   
 7. **Consistent naming conventions**: Adopt consistent naming conventions for variables, functions, and classes.  
    - Use `snake_case` for variables and functions (e.g., `my_variable`, `my_function`)  
    - Use `PascalCase` for class names (e.g., `MyClass`)  
    - Use `UPPERCASE` for constants (e.g., `MY_CONSTANT`)  
   
-8. **Keep functions and methods short**: Aim to keep functions and methods concise, ideally not exceeding 15-20 lines of  
-   code.  
+8. **Keep functions and methods short**: Aim to keep functions and methods concise, ideally not exceeding 15-20 lines of  code.  
   
 9. **Modularize code**: Organize code into modules and packages to maintain a clean and organized codebase.  
   
-10. **Minimal comments**: Avoid comments if possible. Write code that is simple and descriptive enough that comments are  
-    not necessary. If needed, use comments sparingly to provide context or explain complex or non-obvious sections of  
-    your code.  
+10. **Minimal comments**: Avoid comments if possible. Write code that is simple and descriptive (See pt 5) enough that comments are  not necessary. If needed, use comments sparingly to provide context or explain complex or non-obvious sections of  your code.  
   
 11. **Error handling**: Use appropriate error handling techniques, such as `try` and `except` blocks, to handle  
     exceptions and provide meaningful error messages to users.  

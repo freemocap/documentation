@@ -1,4 +1,4 @@
-# Troubleshooting
+Troubleshooting
  For fixing specific problems
 
 # Installation problems

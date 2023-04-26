@@ -18,19 +18,27 @@ extra_css:
 custom_dir: overrides
 
 nav:
-  - 'index.md'
-  - 'about_us.md'
-  - 'how_to_guides/index.md'  # an index of clickable links to various guides
-  - 'terminology/terminology.md'
-  - 'roadmap/roadmap.md'  # actually the roadmap
+  - Home: 'index.md'
+  - About Us: 'about_us.md'
+  - Getting Started: 
+    - 'Basic Workflow': 'Tutorials/index.md'
+    - 'Making your first Skelly': 'Tutorials/single_camera_recording.md'
+    - 'Advanced Skeleton Wrangling': 'Tutorials/multi_camera_calibration.md'
+  - Terminology: 'terminology/terminology.md'
+  # - 'roadmap/roadmap.md'  # TODO - update this (or link to github project?)
   - 'privacy_policy.md'
+  
 
 markdown_extensions:
   - abbr
   - attr_list
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format 
   - pymdownx.snippets:
       auto_append:
         - includes/abbreviations.md
@@ -42,6 +50,7 @@ markdown_extensions:
   - toc:
       permalink: true
       toc_depth: 3
+
 extra:
   social:
     - icon: fontawesome/brands/twitter
@@ -62,3 +71,4 @@ extra:
 plugins:
   - mkdocs-video
   - search
+

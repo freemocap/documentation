@@ -1,6 +1,9 @@
+# Contributing to the FreeMoCap Project
 
 
-Welcome to the FreeMoCap contributing guide! This document will help you understand how to contribute to the project, whether you're reporting bugs, suggesting new features, or submitting code changes. We're excited to have you on board and look forward to working with you!
+Welcome to the FreeMoCap contributing guide! 
+
+This document will help you understand how to contribute to the project, whether you're reporting bugs, suggesting new features, or submitting code changes. We're excited to have you on board and look forward to working with you!
 
 ## Getting Started
 
@@ -71,16 +74,3 @@ Pull requests are the best way to propose changes to the codebase (we use [Githu
 
 If you encounter issues or have questions while contributing to Freemocap, don't hesitate to reach out. You can ask for help on our Discord server or by creating a new issue on Github. We'll do our best to assist you and provide the information you need.
 
-```mermaid
-graph TD
-    A(1. Installation) --> B(2. Choose Recording Type)
-    B --> C(2a. Single Camera Recording)
-    B --> D(2b. Multi Camera Recording)
-    C --> E(3a. Record Videos & Process)
-    D --> F(3b.1. Calibration)
-    D --> G(3b.2. Record Videos & Process)
-    E --> H(4. Post Processing)
-    F --> H
-    G --> H
-    H --> I(5. Visualization)
-```
