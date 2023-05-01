@@ -3,15 +3,14 @@
 ### Introduction
 We recommend that everybody starts by creating a single-camera recording and reconstruction of their movement  before moving on to more complex tasks like multi-camera calibration and reconstruction. 
 
-!!! tip-full-width "Skelly says - 'Simple Pimple First!'"
+Starting with a single-camera reconstruction will help ensure that the full pipeline works on your computer with your hardware. 
 
-    Even if you intend to make multi-camera 3D recronstuctions, starting with a single-camera reconstruction will help ensure that the full pipeline works on your computer with your hardware. 
-
-    Once that is established, you'll have a great baseline understanding of the compete process before moving to the more complex task of creating a multi-camera calibration and recording
+Once that is established, you'll have a great baseline understanding of the compete process before moving to the more complex task of creating a multi-camera calibration and recording
+    
 
 ### Installation 
 
-Follow the [Installation Guide](./Installation.md) to install the [FreeMoCap](https://github.com/freemocap/freemocap) software
+If you haven't installed FreeMoCap yet, follow the [Installation Guide](./Installation.md) to install the software. Once you've installed FreeMoCap, come back continue this tutorial.
 
 ### Launching FreeMoCap
 Launch FreeMoCap from the terminal by activating the relevant Python environment and typing `freemocap` into the terminal, then press Enter. At that point, the GUI should show up, which will look like this:

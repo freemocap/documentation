@@ -22,7 +22,7 @@ nav:
   - About Us: 'about_us.md'
   - Getting Started: 
     - 'Basic Workflow': 'Tutorials/index.md'
-    - 'Making your first Skelly': 'Tutorials/single_camera_recording.md'
+    - 'Your First FreeMoCap Recording': 'Tutorials/single_camera_recording.md'
     - 'Advanced Skeleton Wrangling': 'Tutorials/multi_camera_calibration.md'
   - Terminology: 'terminology/terminology.md'
   # - 'roadmap/roadmap.md'  # TODO - update this (or link to github project?)
