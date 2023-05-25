@@ -5,10 +5,7 @@ This is the official and most up-to-date place to find documentation for the Fre
 Our documentation is very much a work in progress, so we appreciate your patience, support, and engagement!
 
 !!! tip-full-width "Quick start: Take me to the skeletons!""
-     Head on over to our [Tutorials](./Tutorials/index.md) section and work through the [Single-Camera Recording](./Tutorials/single_camera_recording.md) walkthrough.
-
-
-
+     Head on over to our [Tutorials](getting_started/index.md) section and work through the [Single-Camera Recording](getting_started/single_camera_recording.md) walkthrough.
 
 
 ## Helpful Links
@@ -24,23 +21,3 @@ Our documentation is very much a work in progress, so we appreciate your patienc
 - Join the Discord and ask a question in the #help-requests channel.
     - [Click here to join our Discord](https://discord.gg/P2nyraRYjb)
 
-[[Introduction to FreeMoCap -  A Free Open Source Markerless Motion Capture System]]
-
-[[Prerequisites for Using FreeMoCap]]
-
-[[Getting a good recording - Setting up your recording environment]]
-
-[[Making your first Skelly - Single-Camera Recording]]
-
-[[Multi-Camera Calibration Guide]]
-
-
-## Community documents
--  [[Code of Conduct]]
--  [[Python Code Style Guide]]
--  [[Contributing to the FreeMoCap Project]]
-
-## GitHub template stuff
--  Issue Template (Bug Report)
--  Issue Template (Feature Request)
--  Pull Request Template

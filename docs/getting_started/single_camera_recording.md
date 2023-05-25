@@ -11,7 +11,7 @@ We recommend that everybody starts by creating a single-camera recording and rec
 
 ### Installation 
 
-Follow the [Installation Guide](./Installation.md) to install the [FreeMoCap](https://github.com/freemocap/freemocap) software
+Follow the [Installation Guide](./installation.md) to install the [FreeMoCap](https://github.com/freemocap/freemocap) software
 
 ### Launching FreeMoCap
 Launch FreeMoCap from the terminal by activating the relevant Python environment and typing `freemocap` into the terminal, then press Enter. At that point, the GUI should show up, which will look like this:

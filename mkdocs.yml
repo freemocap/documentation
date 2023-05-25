@@ -8,9 +8,16 @@ theme:
     - navigation.tabs
     - navigation.instant
     - navigation.tracking
-#    - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+
+repo_url: https://github.com/freemocap/freemocap
 
 extra_css:
   - stylesheets/extra.css
@@ -20,13 +27,18 @@ custom_dir: overrides
 nav:
   - Home: 'index.md'
   - About Us: 'about_us.md'
-  - Getting Started: 
-    - 'Basic Workflow': 'Tutorials/index.md'
-    - 'Making your first Skelly': 'Tutorials/single_camera_recording.md'
-    - 'Advanced Skeleton Wrangling': 'Tutorials/multi_camera_calibration.md'
-  - Terminology: 'terminology/terminology.md'
-  # - 'roadmap/roadmap.md'  # TODO - update this (or link to github project?)
-  - 'privacy_policy.md'
+  - Getting Started:
+    - 'Basic Workflow': 'getting_started/index.md'
+    - 'Installation': 'getting_started/installation.md'
+    - 'Quickstart tutorial': 'getting_started/single_camera_recording.md'
+    - 'Multi-Camera tutorial': 'getting_started/multi_camera_calibration.md'
+  - Contributing:
+    - Contributing Guide: 'contributing/index.md'
+    - Python Style Guide: 'contributing/python_code_style_guide.md'
+  - Community:
+    - Code of Conduct: 'community/code_of_conduct.md'
+    - Privacy Policy: 'community/privacy_policy.md'
+
   
 
 markdown_extensions:
@@ -49,7 +61,9 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - toc:
       permalink: true
-      toc_depth: 3
+      baselevel: 1
+
+
 
 extra:
   social:

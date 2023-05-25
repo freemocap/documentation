@@ -12,10 +12,6 @@ This style guide aims to maintain code readability, quality, and maintainability
 
 ## Specific Guidelines
 
-```
-TO DO - Add code samples for each guideline (along with links to external references when applicable)
-```
-  
 1. **Include Google-formatted docstrings**: Use Google-style docstrings for functions, methods, and classes to provide  
    clear and concise documentation.  
   
