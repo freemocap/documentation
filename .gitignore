@@ -1,7 +1,5 @@
-.idea
-
 .venv
-
-.obsidian
-
-.vscode
+venv
+env
+.env
+.idea
