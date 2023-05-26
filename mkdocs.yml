@@ -1,5 +1,6 @@
 site_name: FreeMoCap Documentation
 repo_url: https://github.com/freemocap/freemocap
+edit_uri: blob/master/docs/
 
 theme:
   name: material

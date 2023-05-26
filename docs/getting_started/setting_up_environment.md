@@ -4,7 +4,7 @@
 Lighting is crucial for a camera-based system like FreeMoCap. For best results, use bright environments, such as near open windows during the day. Be cautious, as environments that appear bright to our eyes may be quite dim (Human eyes are exceptionally good at adapting to different lighting conditions). When setting the exposure on the GUI, aim for a setting of at most -6, but better results can be achieved at -7 or -8. Examples of proper exposure settings will be provided later in the documentation.
 
 !!! tip-full-width Pro-tip - Empathize with The Machine 
-Consider the task you are asking the software to perform empathetically. If you, as a human, would struggle to accurately identify joint centers in the camera images, the software will likely struggle too.
+    Consider the task you are asking the software to perform empathetically. If you, as a human, would struggle to accurately identify joint centers in the camera images, the software will likely struggle too.
 
 On a more technical level, the goal is to have enough light in the scene to allow for short exposure times on the cameras. Short exposure times reduce the blur recorded in each image, as the shutter won't be open long enough to record motion blur. Example images will be included in the tutorial later.
 
