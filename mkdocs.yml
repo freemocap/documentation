@@ -10,7 +10,7 @@ theme:
     - navigation.instant
     - navigation.tracking
     - navigation.sections
-    - navigation.expand
+#    - navigation.expand
     - toc.integrate
     - search.suggest
     - search.highlight
@@ -41,8 +41,9 @@ nav:
   - Home: 'index.md'
   - About Us: 'about_us.md'
   - Getting Started:
-    - 'Basic Workflow': 'getting_started/index.md'
-    - 'Installation': 'getting_started/installation.md'
+    - Basic Workflow: 'getting_started/index.md'
+    - Installation: 'getting_started/installation.md'
+    - Setting up: 'getting_started/setting_up_environment.md'
     - Single-Camera Tutorial: 'getting_started/single_camera_recording.md'
     - Multi-Camera Tutorial: 'getting_started/multi_camera_calibration.md'
   - Contributing:
