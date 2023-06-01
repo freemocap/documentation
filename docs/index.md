@@ -2,10 +2,10 @@
 
 This is the official and most up-to-date place to find documentation for the FreeMoCap project.
 
-Our documentation is very much a work in progress, so we appreciate your patience, support, and engagement!
+Our documentation is a continuous work in progress, so we appreciate your patience, support, and engagement!
 
 !!! tip-full-width "Quick start: Take me to the skeletons!""
-     Head on over to our [Tutorials](getting_started/index.md) section and work through the [Single-Camera Recording](getting_started/single_camera_recording.md) walkthrough.
+     Head on over to our [Tutorials](getting_started/index.md) section and work through the [Single-Camera Recording](getting_started/single_camera_recording.md) walkthrough tp get started using FreeMoCap!
 
 
 ## Helpful Links
