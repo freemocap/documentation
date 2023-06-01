@@ -4,18 +4,14 @@ This style guide aims to maintain code readability, quality, and maintainability
   
 ## General Guidelines  
 
-- Follow a [[Universal Design]] approach that aspires to be interpretable to the widest possible number of people 
-- Follow standard best practices, e.g  [[[S.O.L.I.D]], [[D.R.Y]], etc
-- Follow  [[PEP 8 Guidelines]]
+- Follow a [Universal Design](https://uxdesign.cc/the-curb-cut-effect-universal-design-b4e3d7da73f5) approach that aspires to be interpretable to the widest possible number of people 
+- Follow  [PEP 8 Guidelines](https://peps.python.org/pep-0008/)
+- Follow standard best practices, e.g [S.O.L.I.D](https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design), etc
 - Use  [Black](https://black.readthedocs.io/en/stable/) to auto-format your code
 
 
 ## Specific Guidelines
 
-```
-TO DO - Add code samples for each guideline (along with links to external references when applicable)
-```
-  
 1. **Include Google-formatted docstrings**: Use Google-style docstrings for functions, methods, and classes to provide  
    clear and concise documentation.  
   

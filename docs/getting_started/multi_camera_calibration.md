@@ -1,4 +1,6 @@
 ## Multi-Camera Calibration Guide
+!!! tip
+     [Check out this video for more information and directed guidance in the calibration process](https://youtu.be/GxKmyKdnTy0?t=1615)
 
 **Note:** This calibration process describes the use of an anipose-based calibration method. We will soon be updating our method to use a more flexible and interactive interface.
 
@@ -7,11 +9,12 @@ To perform a multi-camera calibration, you'll need to print out a [Charuco board
 
 ### Recording Calibration Videos
 In the camera view section of the GUI, select the calibration videos option:
-[Add a screenshot of the view here]
+![image](/assets/images/freemocap_calibration_window_w_text_overlay.png)
+
 
 Begin the recording, and then move until your Charuco board can be seen in the overlapping fields of view of at least two cameras at a time. Move the Charuco board up and down so that you are "painting" each camera's view with images of the board. Make sure that every camera has shared views of the board with at least one other camera. We will be using the corresponding views of that board with the other cameras to help localize the camera positions relative to each other, which is necessary for the 3D triangulation step later.
 
-TODO - add link to the youtube video where I demonstrate and talk about this
+For more information about how to use the board to get a high quality calibration, [see this video](https://www.youtube.com/watch?v=GxKmyKdnTy0&t=1786s) (it uses a different version of this software, but the same principles apply)
 
 ### Processing the Calibration
 Once you have given each camera a good view of the board shared with another camera, click "Stop Recording," and it will begin the calibration process automatically. 

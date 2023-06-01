@@ -1,10 +1,7 @@
-# About Us 
 
+**The Free Motion Capture Project (FreeMoCap) aims to provide research-grade markerless motion capture software to everyone for free.**
 
-
-The Free Motion Capture Project (FreeMoCap) aims to provide research-grade markerless motion capture software to everyone for free.
-
-We're building a user-friendly framework that connects an array of `bleeding edge` open-source tools from the computer vision and machine learning communities to accurately record full-body 3D movement of humans, animals, robots, and other objects.
+We're building a user-friendly framework that connects an array of [bleeding edge](https://en.wikipedia.org/wiki/Emerging_technologies#In_the_media) open-source tools from the computer vision and machine learning communities to accurately record full-body 3D movement of humans, animals, robots, and other objects.
 
 We want to make the newly emerging mind-boggling, future-shaping technologies that drive FreeMoCap's core functionality accessible to communities of people who stand to benefit from them.
 
@@ -26,17 +23,16 @@ A high-quality, minimal-cost motion capture system would be a transformative too
 This project is managed by the [FreeMoCap Foundation](https://freemocapfoundation.org)
 
 
-# Introduction to FreeMoCap -  A Free Open Source Markerless Motion Capture System
 
-## 1. Overview
+## Software Overview
 
-FreeMoCap (free motion capture) is a [[free open source ]]markerless motion capture system designed to provide research-quality motion capture data using free software and generic, minimal-cost webcams. It is designed to be usable by people with no technical expertise while remaining a viable project for high-level scientific researchers. The data it provides can be useful for any project that involves human movement, including scientific research, 3D animation, sports biomechanics, and more.
+FreeMoCap (free motion capture) is a [free open source ](https://www.gnu.org/philosophy/open-source-misses-the-point.en.html) markerless motion capture system designed to provide research-quality motion capture data using free software and generic, minimal-cost webcams. The data it provides can be useful for any project that would benefit from high quality 3d measurments of human movement, including scientific research, 3D animation, sports biomechanics, and more.
 
-## 2. Features and Capabilities
+## Features and Capabilities
 
 FreeMoCap features a complete GUI-based interface that can create high-quality kinematic data from single cameras, multiple cameras, or imported videos. It also produces data outputs in the form of numpy arrays, CSVs, a Blender output scene, and a preloaded Jupyter notebook that is set up for analyzing the data that was just produced. This is especially useful for classroom settings or immediate opportunities for exploratory data analysis the moment the data is done processing. The software is designed to work with minimal-cost, low-quality USB webcams, as well as asynchronous recording methods such as GoPros. Support for research-grade cameras like FLIR or IP cameras like White Matter is planned.
 
-## 3. Community Involvement and Support
+## Community Involvement and Support
 
 FreeMoCap has a vibrant and growing community of users and developers, including research and clinical scientists, 3D animators, video game designers, and open-source software developers. Most of the community is centered around a [Discord server](https://discord.gg/nxv5dNTfKT).
 
