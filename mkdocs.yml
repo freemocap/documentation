@@ -12,7 +12,7 @@ theme:
     - navigation.tracking
     - navigation.sections
 #    - navigation.expand
-    - toc.integrate
+#    - toc.integrate
     - search.suggest
     - search.highlight
     - content.tabs.link
@@ -74,6 +74,8 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
   - toc:
       permalink: true
       baselevel: 2
