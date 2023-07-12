@@ -5,7 +5,7 @@
 **Note:** This calibration process describes the use of an anipose-based calibration method. We will soon be updating our method to use a more flexible and interactive interface.
 
 ### Preparing the Charuco Board
-To perform a multi-camera calibration, you'll need to print out a [Charuco board image](https://github.com/freemocap/freemocap/blob/main/assets/charuco/charuco_board_image.png). For smaller spaces, a simple printout from a standard printer should work just fine. For larger spaces, you might need to print this on a poster board so that it can be viewed from the cameras.
+To perform a multi-camera calibration, you'll need to print out a [Charuco board image](https://github.com/freemocap/freemocap/blob/main/freemocap/assets/charuco/charuco_board_image.png). For smaller spaces, a simple printout from a standard printer should work just fine. For larger spaces, you might need to print this on a poster board so that it can be viewed from the cameras.
 
 ### Recording Calibration Videos
 In the camera view section of the GUI, select the calibration videos option:
