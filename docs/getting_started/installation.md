@@ -1,8 +1,8 @@
 ___
 # QUICKSTART:
-In a Python 3.9 or 3.10 environment, enter: 
+In a Python 3.8 through 3.11 environment, enter: 
 ```
-pip install freemocap   
+pip install --pre freemocap   
 freemocap
 ```
 ## :sparkles: :skull: :sparkles:
@@ -27,7 +27,7 @@ ___
         Press `ctrl + alt + t` to open a terminal window.
     
 
-## Create a new Python (v3.9 or v3.10) environment 
+## Create a new Python (3.8 <= v <= 3.11) environment 
 - Install [Anaconda](https://www.anaconda.com/download) (or [Miniconda](https://docs.conda.io/en/latest/miniconda.html)) if you haven't already.
 
 !!! info inline end "Python Environments" 
@@ -37,7 +37,7 @@ ___
     
 
 
-- Create a new `python` environment (Python 3.9 or 3.10 recommended). In your Terminal window, enter the following command: 
+- Create a new `python` environment (Python 3.8 through 3.11 recommended). In your Terminal window, enter the following command: 
 ```bash
 conda create -n freemocap-env python=3.10
 ```
@@ -53,7 +53,7 @@ conda activate freemocap-env
 === "PyPi (pip)"
 
     ```bash
-    pip install freemocap~=1.0.13rc0
+    pip install --pre freemocap
     ```
 
 === "Github (source code)" 
