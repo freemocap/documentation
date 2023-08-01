@@ -75,5 +75,5 @@ freemocap
 
 You're in! :sunglasses:
 
-Follow the instructions in the [Single-Camera Tutorial](/getting_started/single_camera_recording/) (and/or [Multi-Camera Calibration Guide](/getting_started/multi_camera_calibration/) guide) section for next steps!
+Follow the instructions in the [Single-Camera Tutorial](getting_started/single_camera_recording/) (and/or [Multi-Camera Calibration Guide](getting_started/multi_camera_calibration/) guide) section for next steps!
 
