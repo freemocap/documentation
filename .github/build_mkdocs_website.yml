@@ -20,9 +20,6 @@ jobs:
       
       - name: Install dependencies
         run: pip install .
-        
-      - name: Copy ReadMe into `docs/index.md'
-        run: cp README.md docs/index.md
 
       - name: Build website
         run: mkdocs gh-deploy --force
