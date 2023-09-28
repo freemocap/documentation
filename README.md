@@ -13,6 +13,7 @@ Read the Docs badge - [![Documentation Status](https://readthedocs.org/projects/
      - Specifically, we are using the 'material mkdocs' theme, described here - https://squidfunk.github.io/mkdocs-material/
 
 ___
+
 # Style Guide
 
 This is a work in progress :)
