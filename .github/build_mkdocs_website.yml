@@ -1,6 +1,6 @@
 name: built_mkdocs_website
 on:
-  push:
+  commit:
     branches:
       - main
 permissions:
