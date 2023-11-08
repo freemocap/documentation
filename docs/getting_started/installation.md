@@ -44,7 +44,7 @@ conda create -n freemocap-env python=3.11 -y
 ```
 ![Alt text](../assets/images/carbon_conda_create_freemocap-env.png)
 
-!!! take-note "Python Environments" 
+??? info "Python Environments" 
     This step creates a new installation of Python on your system that will be used to run the code behind the FreeMoCap software!
 
     For more information about Python environments, [check out this guide from Real Python](https://realpython.com/python-virtual-environments-a-primer/)
