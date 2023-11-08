@@ -1,8 +1,8 @@
 ___
 # Welcome! :skull: :wave:
-Thanks for your interest in using the FreeMoCap software! We're excited to have you here, and we're looking forward to seeing what you create with our tools!
+Thanks for your interest in using the FreeMoCap software! We're excited to have you here, and we're looking forward to seeing what you create with our tool!
 
-This is the official and most up-to-date place to find documentation for the FreeMoCap project. FreeMoCap runs on Windows, Mac (including Apple Silicon), and Linux operating systems.
+FreeMoCap runs on Windows, Mac (ARM and Intel), and Linux operating systems.
 
 Follow the instructions below, starting with the environment setup and package installation steps and you'll be up and running in no time! 
 
@@ -38,16 +38,16 @@ ___
 ## 2. Create a new Python environment 
 - Install [Anaconda](https://www.anaconda.com/download) (or [Miniconda](https://docs.conda.io/en/latest/miniconda.html)) if you haven't already.
 
-- Create a new `python` environment (Python 3.9 through 3.11 recommended). In your Terminal window, enter the following command: 
+- Create a new Python environment (verions 3.9 through 3.11 recommended). To do so, enter the following command in your terminal: 
 ```bash
 conda create -n freemocap-env python=3.11 -y
 ```
 ![Alt text](../assets/images/carbon_conda_create_freemocap-env.png)
 
 !!! take-note "Python Environments" 
-    This step creates a new installation of Python on your system that will be used to run the code behind the `freemocap` software!
+    This step creates a new installation of Python on your system that will be used to run the code behind the FreeMoCap software!
 
-    For more information about Python environments, [check out this guide from `realpython`](https://realpython.com/python-virtual-environments-a-primer/)
+    For more information about Python environments, [check out this guide from Real Python](https://realpython.com/python-virtual-environments-a-primer/)
     
 
 - Activate that newly created environment
@@ -77,16 +77,16 @@ To launch FreeMoCap, enter the command `freemocap` into the terminal, like this:
 ```
 freemocap
 ```
-
+Put together, steps 3 & 4 should look like this in your terminal:
 ![Alt text](../assets/images/carbon_pipinstall_freemocap.png)
 
 
-A GUI should pop up that looks something like this
+Once `freemocap` is entered into your terminal, a GUI should pop up that looks something like this:
 
 ![image](https://user-images.githubusercontent.com/15314521/239695690-90ef7e7b-48f3-4f46-8d4a-5b5bcc3254b3.png)
 
 
-# You're in! :sunglasses:
+# Congrats, you're in! :sunglasses:
 
 Now that you've got FreeMoCap installed, follow the instructions in the [Single-Camera Tutorial](getting_started/single_camera_recording/) (and/or [Multi-Camera Calibration Guide](getting_started/multi_camera_calibration/) guide) section for next steps!
 
