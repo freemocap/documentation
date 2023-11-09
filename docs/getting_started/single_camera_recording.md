@@ -7,7 +7,9 @@ We recommend that everybody starts by creating a single-camera recording and rec
 
     Even if you intend to make multi-camera 3D recronstuctions, starting with a single-camera reconstruction will help ensure that the full pipeline works on your computer with your hardware. 
 
-    Once that is established, you'll have a great baseline understanding of the compete process before moving to the more complex task of creating a multi-camera calibration and recording
+    Once that is established, you'll have a great baseline understanding of the compete process before moving to the more complex task of creating a multi-camera calibration and recording.
+
+The data you get from your single camera recording will be 2D, because there is only one perspective. Don't worry, multiple camera recordings will get you full 3D data.
 
 ### Installation 
 
@@ -23,10 +25,15 @@ Launch FreeMoCap from the terminal by activating the relevant Python environment
 
 
 ### Camera Detection
-The software should locate your cameras, and once they're connected, it will show a viewpoint from the connected camera in the GUI. You can adjust the settings in the sidebar and then click "Apply Settings to Cameras" to apply them. The most important setting to look at right now is the exposure setting, which you should make as low as possible to decrease blur. We generally like to keep it below -6. Adjust it downwards until the image looks crisp, which will probably make it look slightly darker than you would normally expect. For this simple single-camera recording, this isn't a crucial step. As long as you can see yourself in the image, you should be tracked okay, but it's good to keep in mind for the future.
+The software should locate your cameras, and once they're connected, it will show a viewpoint from the connected camera in the GUI. You can adjust the settings in the sidebar and then click "Apply Settings to Cameras" to apply them. 
+
+!!! tip-full-width "The exposure setting is your friend!"
+    The most important setting to look at right now is the exposure setting, which you should make as low as possible to decrease blur. We generally like to keep it below -6. Adjust it downwards until the image looks crisp, which will probably make it look slightly darker than you would normally expect. 
+    
+    For this simple single-camera recording, this isn't a crucial step. As long as you can see yourself in the image, you should be tracked okay, but it's good to keep in mind for the future.
 
 ### Recording
-This is the place where if you were using multiple cameras, you would need to perform a Charuco board-based calibration. But for now, we can move past it.
+Because you're doing a single camera recording, you don't need to do any calibration. But when you do graduate to multi-camera recordings, this is where you would get out a Charuco board and run a calibration first. We're all clear to record our motion capture for now though.
 
 Click "Record" and go into the field of view to perform some kind of movement. Then click "Stop", and it should process automatically from there. When it's done, it will pop up a Blender scene if Blender was properly detected and populate the folder with the output files!
 
