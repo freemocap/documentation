@@ -1,24 +1,28 @@
 ___
-# Welcome! :skull: :wave:
-Thanks for your interest in using the FreeMoCap software! We're excited to have you here, and we're looking forward to seeing what you create with our tool!
-
-FreeMoCap runs on Windows, Mac (ARM and Intel), and Linux operating systems.
-
-Follow the instructions below, starting with the environment setup and package installation steps and you'll be up and running in no time! 
-
-Head on over to our [Discord](https://discord.gg/j76UGWfEeA) and let us know if you run into any issues getting FreeMoCap running on your machine. We're always working to improve cross-platform compatibility and appreciate your feedback. Now let's get started capturing some motion!
 
 
 
 !!! tip-full-width "QUICKSTART"
-    In a Python 3.9 through 3.11 environment, enter: 
-    ```
-    pip install --pre freemocap   
-    freemocap
-    ```
+    If you're already familiar with Python environments and package installation, you can get started with FreeMoCap by simply:
+    
+    In a Python 3.9 through 3.11 environment (`python3.11` recommended), enter: 
+        ```
+        pip install freemocap
+        ```
+        Then: 
+        ```
+        freemocap
+        ```
+        ...and you're off to the races!
 ___
 ___
 # Installation Instructions:
+## 0.  Install [Anaconda](https://www.anaconda.com/download) (or [Miniconda](https://docs.conda.io/en/latest/miniconda.html)) if you haven't already.
+!!! tip "Python Environments"
+
+    If you know enough about environments to prefer something other than `conda`, then you also know enough to understand why this is the method we descirbe here :wink:
+
+    Personally, I use `poetry` :dizzy:
 
 ## 1. Open a terminal window
 !!! tip ""
@@ -36,7 +40,6 @@ ___
         Press `ctrl + alt + t` to open a terminal window.
     
 ## 2. Create a new Python environment 
-- Install [Anaconda](https://www.anaconda.com/download) (or [Miniconda](https://docs.conda.io/en/latest/miniconda.html)) if you haven't already.
 
 - Create a new Python environment (verions 3.9 through 3.11 recommended). To do so, enter the following command in your terminal: 
 ```bash
@@ -88,5 +91,8 @@ Once `freemocap` is entered into your terminal, a GUI should pop up that looks s
 
 # Congrats, you're in! :sunglasses:
 
-Now that you've got FreeMoCap installed, follow the instructions in the [Single-Camera Tutorial](getting_started/single_camera_recording/) (and/or [Multi-Camera Calibration Guide](getting_started/multi_camera_calibration/) guide) section for next steps!
+Now that you've got FreeMoCap installed, you're ready to record your first motion capture session!
 
+The first step is to set up your environment for motion capture and connect your cameras
+
+:point_right: [Set up your environment](/getting_started/your_first_recording/)
