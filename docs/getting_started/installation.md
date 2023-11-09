@@ -64,7 +64,7 @@ conda activate freemocap-env
 === "PyPi (pip)"
 
     ```bash
-    pip install --pre freemocap
+    pip install freemocap
     ```
 
 === "Github (source code)" 
