@@ -3,7 +3,7 @@
 ### Introduction
 We recommend that everybody starts by creating a single-camera recording and reconstruction of their movement  before moving on to more complex tasks like multi-camera calibration and reconstruction. 
 
-!!! tip-full-width "Skelly says - 'Simple Pimple First!'"
+!!! tip-full-width "Do what's easy, first!"
 
     Even if you intend to make multi-camera 3D recronstuctions, starting with a single-camera reconstruction will help ensure that the full pipeline works on your computer with your hardware. 
 
