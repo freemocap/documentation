@@ -1,6 +1,6 @@
 ``` mermaid
 graph TD
-    A1(1. Installation)
+    A1(Installation)
     A1-->A(Create New Recording)
     A --if single camera---> B(Record Videos)
     A -- if multiple cameras ---> C(Calibrate Capture Volume)    
