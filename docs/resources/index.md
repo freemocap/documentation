@@ -3,6 +3,22 @@ While FreeMoCap can record anywhere that's big enough to capture your entire bod
 Don't be afraid to start small and simple - any set up is better than no set up. You can always add complexity as you become more comfortable with the system.
 
 
+!!! tip-full-width "Grip it & Rip it :sparkles:"
+    
+    The best way to learn how this works it is to do it a lot!
+    
+    Use this section as a reference, but don't be afraid to just dive in and start recording! If things don't come out right, fiddle with your cameras and your settings and try it again! You don't have to understand how it works to use it, and you'll learn how it works by using it ✨
+
+    Start by recording A LOT of SHORT recordings, so that you can iterate quickly and get a feel for how the system works and the things the determine the quality of your output.
+    
+    If you get stuck, [join our Discord](https://discord.gg/P2nyraRYjb) and ask for help in the #help-requests channel!
+
+## [Video Tutorial](https://www.youtube.com/watch?v=GxKmyKdnTy0&t=872s)
+
+This video uses an older version of the software, but the discussion of hardware, lighting, and camera placement is still relevant (use the timestamps to jump to specific sections):
+
+
+# Detailed Setup Guide
 ## Lighting Conditions
 
 Lighting is crucial for a camera-based system like FreeMoCap. For best results, use bright environments, such as near open windows during the day. Be cautious, as environments that appear bright to our eyes may be quite dim (Human eyes are exceptionally good at adapting to different lighting conditions).

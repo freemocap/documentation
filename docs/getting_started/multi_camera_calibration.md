@@ -24,3 +24,13 @@ Once you have given each camera a good view of the board shared with another cam
 
 !!! tip
      Be sure to keep an eye on the terminal that launched the GUI for helpful output, as the log at the bottom of the  GUI screen does not capture all of the outputs yet.
+
+
+### Recording Motion Capture Videos
+
+Once you have completed the calibration process, you are are ready to record motion capture videos!
+
+Select "Motion Capture Videos" from the camera view section of the GUI, and then click "Record." Perform your movement, and then click "Stop." The software will automatically process the videos and generate a Blender scene with the output data!
+
+To manually process/re-process the videos, use the `Process Motion Capture Videos` button in the `Processing` tab of the GUI.
+

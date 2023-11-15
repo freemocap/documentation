@@ -1,15 +1,7 @@
 ## Single-Camera Recording
 
 ### Introduction
-We recommend that everybody starts by creating a single-camera recording and reconstruction of their movement  before moving on to more complex tasks like multi-camera calibration and reconstruction. 
-
-!!! tip-full-width "Do what's easy, first!"
-
-    Even if you intend to make multi-camera 3D recronstuctions, starting with a single-camera reconstruction will help ensure that the full pipeline works on your computer with your hardware. 
-
-    Once that is established, you'll have a great baseline understanding of the compete process before moving to the more complex task of creating a multi-camera calibration and recording.
-
-The data you get from your single camera recording will be 2D, because there is only one perspective. Don't worry, multiple camera recordings will get you full 3D data.
+We recommend that everybody starts by creating a single-camera recording and reconstruction of their movement before moving on to more complex tasks like multi-camera calibration and reconstruction. 
 
 ### Installation 
 
