@@ -27,3 +27,8 @@ Reversed or mirrored images, like those recorded from some front-facing cameras 
 Some phones will allow you to turn off image mirroring in the settings, but if not you may have to switch to using the rear camera.
 
 ## Common Error Messages
+
+### `FileNotFoundError: [Errno 2] No such file or directory: `
+This error occurs when no calibration file has been selected for the recording. If you are making a new recording, make sure you have recorded and processed calibration files for your current camera setup. If you already have a calibration for your camera setup, or are importing a recording that already has a calibration file, make sure to choose the "Load calibration from file" option in the "Process Data" tab, and load the TOML file that matches your recording.
+
+![Load TOML button](../assets/images/choose_calibration_file.png)
