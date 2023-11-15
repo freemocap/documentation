@@ -37,6 +37,5 @@ graph TD
     
     analysis -->  visualize
     analysis --forever---> record_videos
-    
 ```
 

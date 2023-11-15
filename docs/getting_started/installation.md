@@ -45,7 +45,7 @@ ___
 ```bash
 conda create -n freemocap-env python=3.11 -y
 ```
-![Alt text](../assets/images/carbon_conda_create_freemocap-env.png)
+![conda create -n freemocap-env python=3.11 -y](../assets/images/carbon_conda_create_freemocap-env.png)
 
 ??? info "Python Environments" 
     This step creates a new installation of Python on your system that will be used to run the code behind the FreeMoCap software!
@@ -57,7 +57,7 @@ conda create -n freemocap-env python=3.11 -y
 ```bash
 conda activate freemocap-env
 ```
-![Alt text](../assets/images/carbon_conda_activate_freemocap-env.png)
+![conda activate freemocap-env](../assets/images/carbon_conda_activate_freemocap-env.png)
 
 ## 3. Install software
 
@@ -81,12 +81,12 @@ To launch FreeMoCap, enter the command `freemocap` into the terminal, like this:
 freemocap
 ```
 Put together, steps 3 & 4 should look like this in your terminal:
-![Alt text](../assets/images/carbon_pipinstall_freemocap.png)
+![pip install freemocap / freemocap](../assets/images/carbon_pipinstall_freemocap.png)
 
 
 Once `freemocap` is entered into your terminal, a GUI should pop up that looks something like this:
 
-![image](https://user-images.githubusercontent.com/15314521/239695690-90ef7e7b-48f3-4f46-8d4a-5b5bcc3254b3.png)
+![view of GUI](https://user-images.githubusercontent.com/15314521/239695690-90ef7e7b-48f3-4f46-8d4a-5b5bcc3254b3.png)
 
 
 # Congrats, you're in! :sunglasses:
