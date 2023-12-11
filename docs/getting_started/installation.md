@@ -5,18 +5,17 @@ ___
 !!! tip-full-width "QUICKSTART"
     If you're already familiar with Python environments and package installation, you can get started with FreeMoCap by simply:
     
-    In a Python 3.9 through 3.11 environment (`python3.11` recommended), enter: 
-        ```
-        pip install freemocap
-        ```
-        Then: 
-        ```
-        freemocap
-        ```
-        ...and you're off to the races!
+    ### 1. Create a a Python 3.9 through 3.11 environment (`python3.11` recommended) 
+    
+    ### 2. Enter command: `pip install freemocap`
+        
+
+    ### 3. Enter command: `freemocap`
+        
+    ...and you're off to the races!
 ___
 ___
-# Installation Instructions:
+# Detailed Installation Instructions:
 ## 0.  Install [Anaconda](https://www.anaconda.com/download) (or [Miniconda](https://docs.conda.io/en/latest/miniconda.html)) if you haven't already.
 !!! tip "Python Environments"
 
