@@ -117,4 +117,4 @@ Now that you've got FreeMoCap installed, you're ready to record your first motio
 
 The first step is to set up your environment for motion capture and connect your cameras
 
-:point_right: [Set up your environment](/getting_started/your_first_recording/)
+:point_right: [Set up your environment](./your_first_recording.md)

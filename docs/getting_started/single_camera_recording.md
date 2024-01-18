@@ -1,5 +1,3 @@
-## Single-Camera Recording
-
 ### Introduction
 We recommend that everybody starts by creating a single-camera recording and reconstruction of their movement before moving on to more complex tasks like multi-camera calibration and reconstruction. 
 
@@ -29,4 +27,5 @@ Because you're doing a single camera recording, you don't need to do any calibra
 
 Click "Record" and go into the field of view to perform some kind of movement. Then click "Stop", and it should process automatically from there. When it's done, it will pop up a Blender scene if Blender was properly detected and populate the folder with the output files!
 
-
+### 3D Data with Multiple Cameras
+Now that you have gotten the process working with a single camera, it's time to try multiple cameras. You can start with our [Multi-Camera Calibration Guide](./multi_camera_calibration.md).
