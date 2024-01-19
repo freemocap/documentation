@@ -51,7 +51,7 @@ nav:
   - Resources: 
     - Index: 'resources/index.md'
     - Setup Guide: 'resources/detailed_setup.md'
-    - Calibration Filtering: 'resources/calibration_filtering.md'
+    - Reprojection Error Filtering: 'resources/reprojection_filtering.md'
     - YOLO Cropping: 'resources/yolo_cropping.md'
   - Troubleshooting:
     - Installation Troubleshooting: 'troubleshooting/installation_troubleshooting.md'
