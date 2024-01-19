@@ -1,4 +1,4 @@
-___
+# Installation
 
 
 
@@ -13,9 +13,9 @@ ___
         
     ...and you're off to the races!
 ___
-___
-# Detailed Installation Instructions:
-## 0.  Install [Anaconda](https://www.anaconda.com/download) (or [Miniconda](https://docs.conda.io/en/latest/miniconda.html)) if you haven't already.
+
+## Detailed Installation Instructions:
+### 0.  Install [Anaconda](https://www.anaconda.com/download) (or [Miniconda](https://docs.conda.io/en/latest/miniconda.html)) if you haven't already.
 !!! tip "Python Environments"
 
     If you are not familiar with Python environments, here's a nice [guide from Real Python](https://realpython.com/python-virtual-environments-a-primer/).
@@ -45,7 +45,7 @@ ___
 ```bash
 conda create -n freemocap-env python=3.11 -y
 ```
-![conda create -n freemocap-env python=3.11 -y](../assets/images/carbon_conda_create_freemocap-env.png)
+![conda create -n freemocap-env python=3.11 -y](carbon_conda_create_freemocap-env.png)
 
 ??? info "Breakdown of the `conda create` command" 
     This step creates a new installation of Python on your system that will be used to run the code behind the FreeMoCap software!
@@ -78,7 +78,7 @@ conda create -n freemocap-env python=3.11 -y
 ```bash
 conda activate freemocap-env
 ```
-![conda activate freemocap-env](../assets/images/carbon_conda_activate_freemocap-env.png)
+![conda activate freemocap-env](carbon_conda_activate_freemocap-env.png)
 
 ## 3. Install software
 
@@ -102,7 +102,7 @@ To launch FreeMoCap, enter the command `freemocap` into the terminal, like this:
 freemocap
 ```
 Put together, steps 3 & 4 should look like this in your terminal:
-![pip install freemocap / freemocap](../assets/images/carbon_pipinstall_freemocap.png)
+![pip install freemocap / freemocap](carbon_pipinstall_freemocap.png)
 
 
 Once `freemocap` is entered into your terminal, a GUI should pop up that looks something like this:
@@ -116,4 +116,4 @@ Now that you've got FreeMoCap installed, you're ready to record your first motio
 
 The first step is to set up your environment for motion capture and connect your cameras
 
-:point_right: [Set up your environment](/getting_started/your_first_recording/)
+:point_right: [Set up your environment](your_first_recording.)
