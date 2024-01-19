@@ -1,23 +1,54 @@
-# Welcome Skele-Friend! 💀✨
 
-This is the official and most up-to-date place to find documentation for the FreeMoCap project.
+# Welcome to FreeMoCap! 💀✨
 
-Our documentation is a continuous work in progress, so we appreciate your patience, support, and engagement!
+## Welcome Skele-Friend!
 
-!!! tip-full-width "Quick start: Take me to the skeletons!""
-     Head on over to our [Tutorials](getting_started_index.md) section and work through the [Single-Camera Recording](single_camera_recording.md) walkthrough tp get started using FreeMoCap!
+Welcome to the  documentation for the FreeMoCap project. 
+
+This documentation is always evolving, and we value your contributions and feedback.
+
+## Getting Started
+
+If you're eager to dive in and start capturing motion, these resources will get you up and running quickly:
+
+- [Installation](installation.md): Set up FreeMoCap with these instructions.
+- [Software & Hardware Prerequisites](software_hardware_prerequisites.md): Ensure you have all you need before starting.
+- [Single-Camera Recording](single_camera_recording.md): Follow our step-by-step guide for your first motion capture session.
+- [Multi-Camera Calibration](multi_camera_calibration.md): Learn how to calibrate multiple cameras for more complex captures.
 
 
-## Helpful Links
+## Troubleshooting
 
-- The FreeMoCap Website [https://freemocap.org](https://freemocap.org)
-- The FreeMoCap GitHub [https://github.com/freemocap/freemocap](https://github.com/freemocap/freemocap)
-- Support FreeMoCap by [donating to our non-profit](https://freemocap.org/about-us.html#donate) that supports our work!
-## Troubleshooting?
+Hit a roadblock? No problem, we've got your back:
+- [Frequently Asked Questions (FAQ)](Frequently-Asked-Questions-FAQ.md): Find quick answers to common questions.
+- [Installation Troubleshooting](installation_troubleshooting.md): Solve common installation issues.
+- [Calibration Troubleshooting](calibration_troubleshooting.md): Address calibration challenges.
 
-- If you run into an issue using the software itself, post an issue on our GitHub, here: [https://github.com/freemocap/freemocap/issues](https://github.com/freemocap/freemocap/issues)   
-- If there's an error in our documentation, post an issue on our documentation repository, here: [https://github.com/freemocap/documentation/issues](https://github.com/freemocap/documentation/issues)
+Have a question not covered here? Join our [Discord](https://discord.gg/XpRQJnqZxf) and ask away in the #help-requests channel.
 
-- Join the Discord and ask a question in the #help-requests channel.
-    - [Click here to join our Discord](https://discord.gg/P2nyraRYjb)
+## Community & Support
 
+FreeMoCap flourishes thanks to our vibrant community:
+- Join our [Discord Community](https://discord.gg/XpRQJnqZxf)!
+- [Code of Conduct](code_of_conduct.md): Learn about the values that shape our community.
+
+## Contribute
+
+Enrich the FreeMoCap project with your insights:
+
+- [Contributing Guide](contributing_index.md): Discover how you can make a difference.
+- [Python Code Style Guide](python_code_style_guide.md): Write code that aligns with our standards.
+
+Don't forget, you can also support us by [donating to our non-profit](https://freemocap.org/about-us.html#donate).
+
+## Stay Updated
+- Discord Community: 
+- FreeMoCap Website: [https://freemocap.org](https://freemocap.org)
+- GitHub Repository: [https://github.com/freemocap/freemocap](https://github.com/freemocap/freemocap)
+
+---
+
+If you find an error in our documentation or software, don't hesitate to raise an issue on our GitHub:
+
+- [Software Issues](https://github.com/freemocap/freemocap/issues)
+- [Documentation Issues](https://github.com/freemocap/documentation/issues)
