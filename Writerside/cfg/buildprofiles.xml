@@ -13,6 +13,7 @@
             <download-title>Get FreeMoCap</download-title>
             <download-page>https://github.com/freemocap/freemocap</download-page>
             <showDownloadButton>true</showDownloadButton>
+            <color-preset>vivid</color-preset>
         </variables>
     </build-profile>
 

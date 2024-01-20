@@ -1,4 +1,4 @@
-# Templates
+# Doc Page Templates
 
 ######## BEGIN `Starter` Template
 # Starter

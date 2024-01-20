@@ -1,119 +1,109 @@
 # Installation
 
+> If you're already familiar with Python environments and package installation, you can get started with FreeMoCap by
+> simply:
+>
+>    **1. Create a Python environment (`python3.11` recommended)**
+>
+>    **2. Enter command: `pip install freemocap`**
+>
+>    **3. Enter command: `freemocap`**
+>
+>    ...and you're off to the races!
+
+## Detailed Installation Instructions
+
+<procedure title="Step 0 - Install Anaconda or Miniconda" collapsible="true">
+
+If you haven't already, you need to install [Anaconda](https://www.anaconda.com/download)
+or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) on your system. These tools make managing Python projects
+and environments easier.
+
+> We recommend using `conda` because it is the most beginner-friendly method to create a virtual environment.
+> Any other method for creating a virtual environment (`venv`, `poetry`, etc) should work just as well.
+> {style="note"}
 
 
-!!! tip-full-width "QUICKSTART"
-    If you're already familiar with Python environments and package installation, you can get started with FreeMoCap by simply:
-    
-    ### 1. Create a a Python 3.9 through 3.11 environment (`python3.11` recommended) 
-    
-    ### 2. Enter command: `pip install freemocap`freemo
+> For those not familiar with Python environments, it's recommended to use `conda`. If you'd like more information, here
+> is a helpful [guide from Real Python](https://realpython.com/python-virtual-environments-a-primer/) about Python
+> virtual
+> environments.
 
-    ### 3. Enter command: `freemocap`
-        
-    ...and you're off to the races!
-___
+</procedure>
 
-## Detailed Installation Instructions:
-### 0.  Install [Anaconda](https://www.anaconda.com/download) (or [Miniconda](https://docs.conda.io/en/latest/miniconda.html)) if you haven't already.
-!!! tip "Python Environments"
 
-    If you are not familiar with Python environments, here's a nice [guide from Real Python](https://realpython.com/python-virtual-environments-a-primer/).
-    
-    We recomend low XP folk use `conda` to manage their python environment because its the easiest to set up, but you can use whatever method you like.
+<procedure title="Step 1 -  Open a terminal window" collapsible="true">
+  <tabs>
+      <tab title="Windows">
+          Press the `Windows key`, type "Anaconda Prompt", and press Enter.
+      </tab>
+      <tab title="Mac">
+          Press `command + spacebar` and type "terminal" and press Enter.
+      </tab>
+      <tab title="Linux">
+          Press `ctrl + alt + t` to open a terminal window.
+      </tab>
+  </tabs>
+</procedure>
 
-    Personally, I use `poetry` :dizzy:
 
-## 1. Open a terminal window
-!!! tip ""
+<procedure title="Step 2 -  Create a new Python environment" collapsible="true">
 
-    === "Windows"
-    
-        Press the `Windows key`, type "Anaconda Prompt", and press Enter.
-    
-    === "Mac"
-    
-        Press `command + spacebar` and type "terminal" and press Enter. 
-    
-    === "Linux"
-    
-        Press `ctrl + alt + t` to open a terminal window.
-    
-## 2. Create a new Python environment 
+To create a new Python environment, recommended version is 3.9 through 3.11, type the following text into the terminal
+and push `Enter`:
 
-- Create a new Python environment (verions 3.9 through 3.11 recommended). To do so, enter the following command in your terminal: 
-```bash
+```Bash
 conda create -n freemocap-env python=3.11 -y
 ```
-![conda create -n freemocap-env python=3.11 -y](carbon_conda_create_freemocap-env.png)
 
-??? info "Breakdown of the `conda create` command" 
-    This step creates a new installation of Python on your system that will be used to run the code behind the FreeMoCap software!
-    
-    Here's a breakdown of what's happening in this command:
+> This is a `conda` command `create`s a `-n`ew isolated `python` (version `=3.11`) environment named `freemocap-env`.
+> `-y` option automatically confirms the prompt to proceed with the environment setup.
 
-    **conda create -n freemocap-env python=3.11 -y`**
+After creating the environment, activate it using:
 
-    - **`conda`**:    The `conda` package manager (i.e. the program that will execute the command that we send it)
-
-    - **`create`**:    The command to create a new environment
-
-    - **`-n freemocap-env`**:  Set the name of the new environment to `freemocap-env`(note: `-n` is short for `--name`)
-    
-    - **`python=3.11`**:    Install Python version 3.11 into the new environment
-
-    - **`-y`**:    Automatically answer "yes" to any prompts that come up during the installation process
-
-    So, all together, this command is saying:
-
-    "Hey, Conda! Please create a new environment named `freemocap-env` and install Python version 3.11 into it. If you need to ask me any questions during the process, just answer 'Yes' for me."
-
-    ---
-    Enter `conda --help` or `conda create --help` into your terminal to learn more about the `conda` command and its options.
-
-    For more information about Python environments, [check out this guide from Real Python](https://realpython.com/python-virtual-environments-a-primer/)
-    
-
-- Activate that newly created environment
-```bash
+```Bash
 conda activate freemocap-env
 ```
-![conda activate freemocap-env](carbon_conda_activate_freemocap-env.png)
 
-## 3. Install software
+Now your terminal is set to operate within the `freemocap-env` environment.
 
-=== "PyPi (pip)"
+</procedure>
 
-    ```bash
-    pip install freemocap
-    ```
+<procedure title="Step 3 - Install FreeMoCap software" collapsible="true" >
 
-=== "Github (source code)" 
-
-    ```
-    git clone https://github.com/freemocap/freemocap
-    cd freemocap
-    pip install -e .    
-    ```
-
-## 4. Launch the GUI
-To launch FreeMoCap, enter the command `freemocap` into the terminal, like this:
+### Option 1 - Install with `pip install freemocap` (Recommended for beginners)
+Type the text below into the Terminal and press `Enter`:
+```Bash
+pip install freemocap
 ```
-freemocap
+> This command downloads a pre-compiled copy of the software from PyPi. The pip package manager automatically fetches the latest stable binary distribution, which is often in the Wheel format (.whl). Wheel is a built-package format that can speed up the installation process, as it does not require compiling the software from source.
+
+### Option 2 - Install from source code` (Recommended for developers)
+To install FreeMoCap from the source code for development purposes, you will need to clone the repository from GitHub and install it in editable mode using pip. Here is the step-by-step procedure to do so:
+
+1. Open a Terminal.
+2. Clone the FreeMoCap repository using git:
+```Bash
+git clone https://github.com/freemocap/freemocap.git
 ```
-Put together, steps 3 & 4 should look like this in your terminal:
-![pip install freemocap / freemocap](carbon_pipinstall_freemocap.png)
+3. Navigate to the cloned repository directory:
+```Bash
+cd freemocap
+```
+4. Install the package in editable mode with the following command:
+```Bash 
+pip install -e .
+```
+> Installing the package in editable mode (-e flag) means that changes you make to the source code will immediately affect the installed package without needing a re-installation. This is especially useful for developers who are modifying the code and testing their changes frequently.
+
+</procedure>
 
 
-Once `freemocap` is entered into your terminal, a GUI should pop up that looks something like this:
-
-![view of GUI](https://user-images.githubusercontent.com/15314521/239695690-90ef7e7b-48f3-4f46-8d4a-5b5bcc3254b3.png)
 
 
-# Congrats, you're in! :sunglasses:
+## Congrats, you're in! 😎
 
-Now that you've got FreeMoCap installed, you're ready to record your first motion capture session!
+After following these steps, you should have FreeMoCap installed and ready to use!
 
-The first step is to set up your environment for motion capture and connect your cameras
+You're ready to get 👉 [Your first recording!](your_first_recording.md)
 
-:point_right: [Set up your environment](your_first_recording.)
