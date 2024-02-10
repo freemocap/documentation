@@ -36,7 +36,7 @@ Enrich the FreeMoCap project with your insights:
 - [Contributing Guide](contributing_index.md): Discover how you can make a difference.
 - [Python Code Style Guide](python_code_style_guide.md): Write code that aligns with our standards.
 
-Don't forget, you can also support us by [donating to our non-profit](https://freemocap.org/about-us.html#donate).
+You can also support us by [donating to our non-profit](https://freemocap.org/about-us.html#donate).
 
 ## Stay Updated
 - Discord Community: 
