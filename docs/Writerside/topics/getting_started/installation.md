@@ -47,9 +47,9 @@ and environments easier.
 </procedure>
 
 
-<procedure title="Step 2 -  Create a new Python environment" collapsible="true">
+<procedure title="Step 2 -  Create a new Python environment" collapsible="true" id="Step2">
 
-To create a new Python environment, recommended version is 3.9 through 3.11, type the following text into the terminal
+To create a new Python environment with the recommended version 3.11, type the following text into the terminal
 and push `Enter`:
 
 ```Bash
@@ -71,14 +71,35 @@ Now your terminal is set to operate within the `freemocap-env` environment.
 
 <procedure title="Step 3 - Install FreeMoCap software" collapsible="true" >
 
-### Option 1 - Install with `pip install freemocap` (Recommended for beginners)
+<tabs>
+<tab title="Install from pip">
+
+> Recommended for beginners and non-programmers
+> {style = "note"}
+
 Type the text below into the Terminal and press `Enter`:
 ```Bash
 pip install freemocap
 ```
-> This command downloads a pre-compiled copy of the software from PyPi. The pip package manager automatically fetches the latest stable binary distribution, which is often in the Wheel format (.whl). Wheel is a built-package format that can speed up the installation process, as it does not require compiling the software from source.
+A bunch of text should stream by for while, and when it is done, enter the command: 
 
-### Option 2 - Install from source code (Recommended for developers)
+```Bash
+freemocap
+```
+ 
+With any luck, the GUI window should pop up!
+
+Keep an eye on the Terminal window, as it will provide useful information as the software runs.
+
+> This command downloads a pre-compiled copy of `freemocap` hosted PyPi - https://pypi.org/project/freemocap/.
+> 
+> The pip package manager automatically fetches the latest stable binary distribution, which is often in the Wheel format (.whl). A "Wheel: is a built-package format that can speed up the installation process, as it does not require compiling the software from source.
+</tab>
+<tab title = "Install from Source Code">
+
+> Recommended for developers
+> {style="note"}
+
 To install FreeMoCap from the source code for development purposes, you will need to clone the repository from GitHub and install it in editable mode using pip. Here is the step-by-step procedure to do so:
 
 1. Open a Terminal.
@@ -94,11 +115,29 @@ cd freemocap
 ```Bash 
 pip install -e .
 ```
+
+5. Run the software by entering the command: 
+
+```Bash
+freemocap
+```
+
+... or the equivalent
+```Bash
+python freemocap/__main__.py
+```
+
 > Installing the package in editable mode (-e flag) means that changes you make to the source code will immediately affect the installed package without needing a re-installation. This is especially useful for developers who are modifying the code and testing their changes frequently.
+</tab>
+</tabs>
+
+
 
 </procedure>
 
+If all goes well, a GUI Window with Skelly's face should pop up, looking something like this:
 
+![freemocap-gui-welcome-screen.png](freemocap-gui-welcome-screen.png)
 
 
 ## Congrats, you're in! 😎
@@ -107,3 +146,11 @@ After following these steps, you should have FreeMoCap installed and ready to us
 
 You're ready to get 👉 [Your first recording!](your_first_recording.md)
 
+> **Installation problem?** 😅
+> 
+> First thing - Did you make a [Python environment](#Step2)?
+> 
+> That is the root of most installation problems we see, so double check that part first!
+> 
+> If that didn't help,  check here for solutions to common problems: [Installation Troubleshooting](installation_troubleshooting.md)
+> {style= "note"}
