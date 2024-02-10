@@ -1,6 +1,6 @@
 # Installation Troubleshooting
 
-We have instructions on installing FreeMoCap in our [Installation Guide](installation.), but sometimes things don't go as smoothly as planned. This guide will help you work through common problems encountered while installing the software, and hopefully get FreeMoCap running in no time. At the bottom of the page is a list of common error messages you may see during installation, along with common solutions.
+We have instructions on installing FreeMoCap in our [Installation Guide](installation.md), but sometimes things don't go as smoothly as planned. This guide will help you work through common problems encountered while installing the software, and hopefully get FreeMoCap running in no time. At the bottom of the page is a list of common error messages you may see during installation, along with common solutions.
 
 If you're still having problems installing FreeMoCap after troubleshooting with the tips below, reach out to us on our [Discord](https://discord.gg/j76UGWfEeA) to ask for more help.
 

@@ -60,4 +60,4 @@ Ideally, the person should occupy as much of the camera screen as possible, prov
 
 In multi-camera situations, separate the cameras enough to provide different points of view on the subject. If multiple cameras are positioned too close together, they won't add much information to the scene. Separating them by a sufficient angle improves triangulation. Just make sure each camera can share a view of the Charuco board with another camera during calibration.
 
-High-quality recordings can be ensured by adjusting camera settings for optimal image results, mainly by setting the appropriate exposure for the lighting conditions and having good lighting. A successful calibration is also necessary, which you can read about in our [Multi-Camera Calibration Tutorial](resources_multi_camera_calibration.md).
+High-quality recordings can be ensured by adjusting camera settings for optimal image results, mainly by setting the appropriate exposure for the lighting conditions and having good lighting. A successful calibration is also necessary, which you can read about in our [Multi-Camera Calibration Tutorial](multi_camera_calibration.md)

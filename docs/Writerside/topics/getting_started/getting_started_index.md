@@ -1,6 +1,6 @@
 
 
-Thanks for your interest in using the FreeMoCap software! We're excited to have you here, and we're looking forward to seeing what you create with this tool :heart: :skull: :wave:
+Thanks for your interest in using the FreeMoCap software! We're excited to have you here, and we're looking forward to seeing what you create with this tool ❤️💀✨
 
 FreeMoCap runs on Windows, Mac (ARM and Intel), and Linux operating systems.
 
@@ -10,7 +10,7 @@ Head on over to our [Discord](https://discord.gg/j76UGWfEeA) and let us know if 
 
 Now let's get started capturing some motion!
 
-First step  :point_right: [Install the software](installation.)
+First step 👉 [Install the software](installation.md)
 
 
 # Basic FreeMoCap Workflow
