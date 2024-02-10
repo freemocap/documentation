@@ -6,7 +6,7 @@ The absolute minimum required equipment is a computer with a single camera on it
 
 These cameras should be connected directly to the computer's USB ports. We are working on support for using multiple cameras through a single USB hub, but for now, we recommend plugging the cameras straight into the computer for better results. For 3D reconstructions, users will also need to print out a Charuco board for the calibration process, which will be described in greater detail in the calibration section.
 
-Users may find it helpful to have USB extension cables and tripods to set up their webcams in a way that will allow them to get a good recording, but these are not necessary, just convenient.
+You might find it helpful to have USB extension cables and tripods to set up their webcams in a way that will allow them to get a good recording, but these are not necessary, just convenient.
 
 ## 2. Necessary Software
 

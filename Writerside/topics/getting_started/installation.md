@@ -78,7 +78,7 @@ pip install freemocap
 ```
 > This command downloads a pre-compiled copy of the software from PyPi. The pip package manager automatically fetches the latest stable binary distribution, which is often in the Wheel format (.whl). Wheel is a built-package format that can speed up the installation process, as it does not require compiling the software from source.
 
-### Option 2 - Install from source code` (Recommended for developers)
+### Option 2 - Install from source code (Recommended for developers)
 To install FreeMoCap from the source code for development purposes, you will need to clone the repository from GitHub and install it in editable mode using pip. Here is the step-by-step procedure to do so:
 
 1. Open a Terminal.

@@ -9,8 +9,6 @@ This documentation is always evolving, and we value your contributions and feedb
 
 ## Getting Started
 
-If you're eager to dive in and start capturing motion, these resources will get you up and running quickly:
-
 - [Installation](installation.md): Set up FreeMoCap with these instructions.
 - [Software & Hardware Prerequisites](software_hardware_prerequisites.md): Ensure you have all you need before starting.
 - [Single-Camera Recording](single_camera_recording.md): Follow our step-by-step guide for your first motion capture session.
@@ -19,7 +17,6 @@ If you're eager to dive in and start capturing motion, these resources will get 
 
 ## Troubleshooting
 
-Hit a roadblock? No problem, we've got your back:
 - [Frequently Asked Questions (FAQ)](Frequently-Asked-Questions-FAQ.md): Find quick answers to common questions.
 - [Installation Troubleshooting](installation_troubleshooting.md): Solve common installation issues.
 - [Calibration Troubleshooting](calibration_troubleshooting.md): Address calibration challenges.

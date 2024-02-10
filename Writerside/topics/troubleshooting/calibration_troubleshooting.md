@@ -30,18 +30,12 @@ Some phones will allow you to turn off image mirroring in the settings, but if n
 
 ## Common Error Messages
 
-### `FileNotFoundError: [Errno 2] No such file or directory: `
-This error occurs when no calibration file has been selected for the recording. If you are making a new recording, make sure you have recorded and processed calibration files for your current camera setup. If you already have a calibration for your camera setup, or are importing a recording that already has a calibration file, make sure to choose the "Load calibration from file" option in the "Process Data" tab, and load the TOML file that matches your recording.
-
-![Load TOML button](choose_calibration_file.png)
 
 ### `ValueError: not enough values to unpack (expected 2, got 0)`
-This issue comes up when one or more cameras do not have any shared views of the charuco with other cameras. This can due to the physical setup of your cameras. Make sure each camera can clearly see the charuco board at the same time as another camera. This issue can also happen if a camera is not properly detecting a charuco board due to an issue like a mirrored view, glare, or a charuco board that's too small in the cameras view.
-
-The full error message for this issue looks like this:
 ```
 freemocap_anipose.py", line 1810, in calibrate_rows
     objp, imgp = zip(*mixed)
     ^^^^^^^^^^
 ValueError: not enough values to unpack (expected 2, got 0)
 ```
+This issue comes up when one or more cameras do not have any shared views of the charuco with other cameras. This can due to the physical setup of your cameras. Make sure each camera can clearly see the charuco board at the same time as another camera. This issue can also happen if a camera is not properly detecting a charuco board due to an issue like a mirrored view, glare, or a charuco board that's too small in the cameras view.

@@ -20,7 +20,10 @@ A high-quality, minimal-cost motion capture system would be a transformative too
 ✨💀✨
 </center>
 
-<video src="https://youtu.be/WW_WpMcbzns?si=ivAJ3StoCUmVK-zR"/>
+
+<video src="https://youtu.be/WW_WpMcbzns?si=ivAJ3StoCUmVK-zR" mini-player="true" preview-src="hero-video-image.png"/>
+
+
 
 This project is managed by the [FreeMoCap Foundation](https://freemocapfoundation.org)
 
