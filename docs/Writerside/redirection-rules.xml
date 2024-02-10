@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="5843c256">
+        <description>Created after removal of "Starter" from FreeMoCap Main Documentation</description>
+        <accepts>Starter.html</accepts>
+    </rule>
+    <rule id="7ca41dce">
+        <description>Created after removal of "Section Starting Page" from FreeMoCap Main Documentation</description>
+        <accepts>Section-Starting-Page.html</accepts>
+    </rule>
+    <rule id="708515cd">
+        <description>Created after removal of "Tutorial" from FreeMoCap Main Documentation</description>
+        <accepts>Tutorial.html</accepts>
+    </rule>
+    <rule id="23fb68ab">
+        <description>Created after removal of "Reference" from FreeMoCap Main Documentation</description>
+        <accepts>Reference.html</accepts>
+    </rule>
+    <rule id="28337a90">
+        <description>Created after removal of "Overview" from FreeMoCap Main Documentation</description>
+        <accepts>Overview.html</accepts>
+    </rule>
+    <rule id="43c3a673">
+        <description>Created after removal of "How to" from FreeMoCap Main Documentation</description>
+        <accepts>How-to.html</accepts>
+    </rule>
+    <rule id="59ea237">
+        <description>Created after removal of "Doc Page Templates" from FreeMoCap Main Documentation</description>
+        <accepts>Templates.html</accepts>
+    </rule>
+</rules>

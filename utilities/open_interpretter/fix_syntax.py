@@ -1,0 +1,1 @@
+# take in a list of files or folders and load their contents (if a file) or recursively look through folders and fsubfolders if a folder (loading all files)

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <variables></variables>
+    <build-profile instance="fmd">
+        <variables>
+            <noindex-content>false</noindex-content>
+            <primary-color>deep-ocean</primary-color>
+            <custom-favicons>skelly_freemocap_favicon.ico</custom-favicons>
+            <header-logo>fmc-logo-transparent-bkgd-square.png</header-logo>
+            <product-web-url>https://freemocap.org</product-web-url>
+            <download-title>Get FreeMoCap</download-title>
+            <download-page>https://github.com/freemocap/freemocap</download-page>
+            <showDownloadButton>true</showDownloadButton>
+            <color-preset>vivid</color-preset>
+        </variables>
+    </build-profile>
+
+</buildprofiles>
