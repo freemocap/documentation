@@ -5,3 +5,5 @@ env
 
 utilities/output/*
 .idea/*
+
+.DS_Store
