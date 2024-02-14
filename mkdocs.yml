@@ -53,6 +53,7 @@ nav:
     - Setup Guide: 'resources/detailed_setup.md'
     - Reprojection Error Filtering: 'resources/reprojection_filtering.md'
     - YOLO Cropping: 'resources/yolo_cropping.md'
+    - Multiprocessing: 'resources/multiprocessing.md'
   - Troubleshooting:
     - Installation Troubleshooting: 'troubleshooting/installation_troubleshooting.md'
     - Calibration Troubleshooting: 'troubleshooting/calibration_troubleshooting.md'

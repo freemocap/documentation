@@ -10,6 +10,16 @@
     
     If you get stuck, [join our Discord](https://discord.gg/P2nyraRYjb) and ask for help in the #help-requests channel!
 
+## Details on setting up a recording space:
 
+[Detailed Camera Setup Guide](../resources/detailed_setup.md)
+
+## Details on parameter options:
+
+[Reprojection Filtering Parameters](../resources/reprojection_filtering.md)
+
+[YOLO Cropping Parameter](../resources/yolo_cropping.md)
+
+[Multiprocessing Parameter](../resources/multiprocessing.md)
 
 

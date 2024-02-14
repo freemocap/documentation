@@ -1,5 +1,3 @@
-# YOLO Cropping
-
 YOLO cropping is a processing option that passes each video frame through YOLO v8's object detection model to find the most likely area of the person in the frame before passing the image to the pose estimation model. This can help reduce false positives during pose estimation and aid tracking subjects that are relatively small in the cameras field of view. This process increases the quality of the output data at the cost of increased processing time. It can be turned on and off in "Process Data" tab with the checkbox "Use YOLO Crop Method". It is turned off by default.
 
 ![Detail of YOLO Crop Checkbox](../assets/images/YOLO_crop_detail.png)
