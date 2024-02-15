@@ -20,3 +20,10 @@ When pip begins installing the software, it will print which version it is insta
 
 ### `Command "freemocap" not recognized`
 - On some python installations, you may need to type `python -m freemocap` instead of just `freemocap` to launch the gui.
+
+### `qt.qta.plugin: Could not load the Qt platform plugin "xcb"`
+- On linux, some sommon distributions do not come with all of the libraries that are required to run Qt. Most users have been able to fix this by running:
+
+`sudo apt-get install '^libxcb.*-dev' libx11-xcb-dev libglu1-mesa-dev libxrender-dev libxi-dev libxkbcommon-dev libxkbcommon-x11-dev`
+
+If you use a different package manager, you may need look up equivalent commands for your package manager.
