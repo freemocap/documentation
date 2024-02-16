@@ -19,10 +19,12 @@ Launch FreeMoCap from the terminal by activating the relevant Python environment
 ## Camera Detection
 The software should locate your cameras, and once they're connected, it will show a viewpoint from the connected camera in the GUI. You can adjust the settings in the sidebar and then click "Apply Settings to Cameras" to apply them. 
 
-!!! tip-full-width "The exposure setting is your friend!"
-    The most important setting to look at right now is the exposure setting, which you should make as low as possible to decrease blur. We generally like to keep it below -6. Adjust it downwards until the image looks crisp, which will probably make it look slightly darker than you would normally expect. 
-    
-    For this simple single-camera recording, this isn't a crucial step. As long as you can see yourself in the image, you should be tracked okay, but it's good to keep in mind for the future.
+<procedure title="Tips: Exposure and Framing" collapsible="true">
+
+> Prioritize proper exposure for the best video quality. Start by lowering your exposure setting (ideally below -6) to reduce blur and create a crisp image. This may initially make the image appear slightly darker than expected. While perfect framing isn't critical for a simple single-camera setup, ensure you're visible within the frame. Keeping good framing practices in mind will be beneficial for future, more complex recording scenarios.
+{style="note"}
+
+</procedure>
 
 ## Recording
 Because you're doing a single camera recording, you don't need to do any calibration. But when you do graduate to multi-camera recordings, this is where you would get out a Charuco board and run a calibration first. We're all clear to record our motion capture for now though.
