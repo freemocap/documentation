@@ -5,11 +5,6 @@ Welcome to the FreeMoCap contributing guide!
 
 This document will help you understand how to contribute to the project, whether you're reporting bugs, suggesting new features, or submitting code changes. We're excited to have you on board and look forward to working with you!
 
-## Getting Started
-
-## Installing FreeMoCap from source code
-
-
 ## Reporting Bugs 
 
 Your feedback is invaluable in improving FreeMoCap. In this section, you'll learn how to report bugs and suggest new features for the project.
@@ -69,6 +64,11 @@ Pull requests are the best way to propose changes to the codebase (we use [Githu
 4. Ensure the test suite passes.
 5. Make sure your code lints.
 6. Issue that pull request!
+
+
+## Contributing to Documentation
+
+Our documentation is written with [Writerside](https://www.jetbrains.com/writerside/), although it can be edited with any markdown and xml editors. We use the same Github Flow methodology for our documentation as we do for our code contributions. You can make changes to the documentation through pull requests at the [documentation repo](https://github.com/freemocap/documentation).
 
 
 
