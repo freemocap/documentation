@@ -8,6 +8,7 @@
     <toc-element topic="index.md"/>
     <toc-element topic="about_us.md"/>
     <toc-element toc-title="Getting Started">
+        <toc-element topic="getting_started_index.md"/>
         <toc-element topic="software_hardware_prerequisites.md"/>
         <toc-element topic="installation.md"/>
         <toc-element topic="your_first_recording.md"/>
@@ -15,8 +16,11 @@
         <toc-element topic="multi_camera_calibration.md"/>
     </toc-element>
     <toc-element toc-title="Resources">
-        <toc-element topic="getting_started_index.md"/>
         <toc-element topic="resources_index.md"/>
+        <toc-element topic="detailed_setup.md"/>
+        <toc-element topic="multiprocessing.md"/>
+        <toc-element topic="yolo_cropping.md"/>
+        <toc-element topic="reprojection_filtering.md"/>
         <toc-element topic="terminology.md"/>
     </toc-element>
     <toc-element toc-title="Troubleshooting">
