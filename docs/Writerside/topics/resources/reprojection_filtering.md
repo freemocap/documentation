@@ -1,3 +1,5 @@
+# Reprojection Error Filtering
+
 Reprojection error filtering is an optional postprocessing step to the 3D triangulation stage of processing. It retriangulates outlier data from the 3d triangulation with the cameras contributing the most error removed. Reprojection error filtering is most effective when there is poor skeleton detection in one or more camera views. It is turned on and off in "Process Data" tab with the checkbox "Run Reprojection Error Filtering". It is turned off by default.
 
 ![Detail of Reprojection Error Filtering Options](reprojection_filtering_crop_detail.png)
