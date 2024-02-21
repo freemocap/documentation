@@ -2,7 +2,11 @@
 
 ## How is FreeMoCap free?
 
-FreeMoCap is completely free to use, but its also free in the sense of "freedom". You have the freedom to use FreeMoCap how you like, including copying, modifying, and redistributing the code. For more information on free software, see this article from the GNU Operating System, [What is Free Software?](https://www.gnu.org/philosophy/free-sw.en.html).
+FreeMoCap is completely free to use, but its also free in the sense of "freedom". You have the freedom to use FreeMoCap how you like, including copying, modifying, and redistributing the code. 
+
+For more information on free software, see this article from the GNU Operating System, [What is Free Software?](https://www.gnu.org/philosophy/free-sw.en.html)
+
+And this classic essay - [Why Open Source Misses the Point of Free Software](https://www.gnu.org/philosophy/open-source-misses-the-point.en.html)
 
 ## What license does FreeMoCap use?
 FreeMoCap is licensed with the [GNU Affero General Public License (v3)](https://www.gnu.org/licenses/agpl-3.0.en.html), the most aggressively open source license available. 
