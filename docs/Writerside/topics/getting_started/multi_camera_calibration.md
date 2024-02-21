@@ -16,6 +16,9 @@ For smaller spaces, a simple printout from a standard printer should work just f
 
 For larger spaces, you might need to print this on a larger poster board so that it can be seen well by the cameras.
 
+## Setting up Cameras
+To get a multiple camera recording, you'll need multiple cameras set up and connected to your computer. There's detailed instructions on multiple camera setups in the [Detailed Setup Guide](detailed_setup.md), but for now it will suffice to have two or more (three or more is best) cameras connected directly to your camera. We don't recommend using a USB hub to connect cameras. The cameras should be set up so they all see the subject at the same time, and have a 40-60 degree angle between each camera from the subject's viewpoint.
+
 ## Recording Calibration Videos
 In the camera view section of the GUI, select the calibration videos option:
 
@@ -36,7 +39,7 @@ Once you have given each camera a good view of the board shared with another cam
 
 Once you have completed the calibration process, you are are ready to record motion capture videos!
 
-Select "Motion Capture Videos" from the camera view section of the GUI, and then click "Record." Perform your movement, and then click "Stop." The software will automatically process the videos and generate a Blender scene with the output data!
+Select "Record Motion Capture Videos" from the camera view section of the GUI, and then click "Record." Perform your movement, and then click "Stop." The software will automatically process the videos and generate a Blender scene with the output data!
 
 To manually process/re-process the videos, use the `Process Motion Capture Videos` button in the `Processing` tab of the GUI.
 

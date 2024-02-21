@@ -39,3 +39,17 @@ freemocap_anipose.py", line 1810, in calibrate_rows
 ValueError: not enough values to unpack (expected 2, got 0)
 ```
 This issue comes up when one or more cameras do not have any shared views of the charuco with other cameras. This can due to the physical setup of your cameras. Make sure each camera can clearly see the charuco board at the same time as another camera. This issue can also happen if a camera is not properly detecting a charuco board due to an issue like a mirrored view, glare, or a charuco board that's too small in the cameras view.
+
+## Charuco Board Definition
+
+We highly recommend printing or displaying [this image](https://github.com/freemocap/freemocap/blob/main/freemocap/assets/charuco/charuco_board_image.png) for the charuco board. There is also a [high definition version](https://github.com/freemocap/freemocap/blob/main/freemocap/assets/charuco/charuco_board_image_highRes.png) for printing larger boards. Freemocap will not be able to detect charuco baords that do not match this exact layout.
+
+If you have a need to define the freemocap charuco board programatically, the definition we use is:
+```
+    aruco_marker_dict: Dict = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_4X4_250)
+
+    number_of_squares_width: int = 7
+    number_of_squares_height: int = 5
+    black_square_side_length: int = 1
+    aruco_marker_length_proportional: float = 0.8
+```

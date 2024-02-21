@@ -1,0 +1,12 @@
+# YOLO Cropping
+
+YOLO cropping is a processing option that passes each video frame through YOLO v8's object detection model to find the most likely area of the person in the frame before passing the image to the pose estimation model. This can help reduce false positives during pose estimation and aid tracking subjects that are relatively small in the cameras field of view. This process increases the quality of the output data at the cost of increased processing time. It can be turned on and off in "Process Data" tab with the checkbox "Use YOLO Crop Method". It is turned off by default.
+
+![Detail of YOLO Crop Checkbox](YOLO_crop_detail.png){ width="450" }
+
+## How it Works
+The pose estimation models FreeMoCap uses are all set up to process a certain size of image. While you can pass any size of video into FreeMoCap, the images get downsized to a set image size (256x256 pixels for MediaPipe) before going into the pose estimation model. This can have a negative effect on the model's processing, especially if the subject doesn't take up most of the image. 
+
+YOLO cropping is a preprocessing stage that runs before the pose estimation. Instead of sending the entire video frame into the pose estimation model, it first runs an object detection model that looks for people. Unlike a pose estimation model that tracks joint locations, the output of the object detection model is a bounding box that shows where the person in the image is. We then crop the image based on the bounding box and send the cropped image into the pose estimation model. This means we start the downsampling with the most relevant information, and are able to keep as much information as possible when running the pose estimation.
+
+YOLO cropping is beneficial in most recording situations. It will be most helpful when the subject is small in a camera's field of view, or in situations where the pose estimation is returning a lot of false positives (your annotated videos will have skeletons drawn not on a person). You may choose to skip YOLO cropping when processing time is more important than tracking quality, or when the subject already fills most of the camera views. YOLO cropping roughly doubles the processing time of the 2D Image Tracking stage of the pipeline.
