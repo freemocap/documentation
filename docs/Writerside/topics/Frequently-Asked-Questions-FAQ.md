@@ -4,11 +4,14 @@
 
 FreeMoCap is completely free to use, but its also free in the sense of "freedom". You have the freedom to use FreeMoCap how you like, including copying, modifying, and redistributing the code. For more information on free software, see this article from the GNU Operating System, [What is Free Software?](https://www.gnu.org/philosophy/free-sw.en.html).
 
-FreeMoCap is licensed with the [GNU Affero General Public License (v3)](https://www.gnu.org/licenses/agpl-3.0.en.html).
+## What license does FreeMoCap use?
+FreeMoCap is licensed with the [GNU Affero General Public License (v3)](https://www.gnu.org/licenses/agpl-3.0.en.html), the most aggressively open source license available. 
+
+If you wish to work with FreeMocap in a way not supported by the AGPLv3, please reach out to us at `info` AT `freemocap` DOT `org`, and we can discuss alternative licensing options.
 
 ## How can I contribute to FreeMoCap?
 
-We accept contributions of all kinds and sizes. 
+We accept contributions of all kinds and sizes!
 
 For contributions related to code or documentation, see our [contributing page](contributing_index.md).
 
@@ -18,12 +21,12 @@ We also greatly appreciate financial contributions of any size, although the sof
 
 ## Does FreeMoCap work in realtime?
 
-No, FreeMoCap does not currently work in realtime. It's a goal of ours, and we're currently restructuring our software to make this possible, but it will take some time.
+Not yet! FreeMoCap does not currently work in realtime, but we're working on it! 
 
 ## Can FreeMoCap track multiple people at once?
 
-No, FreeMoCap only tracks one person at a time. We're working towards this functionality, but keeping track of which person is which across multiple camera views is hard.
+Not yet! FreeMoCap currently only tracks one person at a time, but we are working on adding multi-person tracking functionality.
 
 ## Can I track things that are not humans?
 
-No, FreeMoCap currently only tracks humans. We're working towards implementing DeepLabCut based animal tracking soon, and object tracking will follow that, but for now it's just humans.
+Not yet! FreeMoCap currently only tracks humans. We have done some proof-of-concept projects using [DeepLabCut](https://deeplabcut.org) and are currently working towards making this part of our standard pipeline. 
