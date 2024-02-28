@@ -4,11 +4,7 @@ Documentation for FreeMoCap
 
 
  - This repository is connected to a static site at - https://freemocap.github.io/documentation
- - Whenever there is a commit to the `main` branch of this repository, a github action will attempt to build a new version of the documentation site from the markdown files in the `/docs/` folder using `mkdocs`
-     - `mkdocs` is a static site generator that builds websites from markdown files, configured via the `mkdocs.yml` file in this repository
-     - For more information on how this works, checkout the mkdocs website - https://mkdocs.org
-     - Specifically, we are using the 'material mkdocs' theme, described here - https://squidfunk.github.io/mkdocs-material/
-
+ - Whenever there is a commit to the `main` branch of this repository, a github action will attempt to build a new version of the documentation
 ___
 
 # Style Guide
