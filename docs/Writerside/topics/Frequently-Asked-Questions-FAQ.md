@@ -8,6 +8,9 @@ For more information on free software, see this article from the GNU Operating S
 
 And this classic essay - [Why Open Source Misses the Point of Free Software](https://www.gnu.org/philosophy/open-source-misses-the-point.en.html)
 
+FreeMoCap is funded through external grants, and donations from users like you. If you would like to donate to FreeMoCap,
+please visit our [donations page](https://freemocap.org/about-us.html#donate).
+
 ## What license does FreeMoCap use?
 FreeMoCap is licensed with the [GNU Affero General Public License (v3)](https://www.gnu.org/licenses/agpl-3.0.en.html), the most aggressively open source license available. 
 
