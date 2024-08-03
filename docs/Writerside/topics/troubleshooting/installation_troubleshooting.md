@@ -9,7 +9,7 @@ Different python projects have different dendencies, and often those dependencie
 There's many options for creating and managing environments in Python - we recommend Poetry and Conda.
 
 ## Check your Python Version
-Currently, FreeMoCap works on Python versions 3.9 through 3.11.  We recommend using the most recent compatible version of Python. If installing FreeMoCap in a 3.11 environment doesn't work for you, then try it with a different python version and see if that helps.
+Currently, FreeMoCap works on Python versions 3.9 through 3.12.  We recommend using the most recent compatible version of Python. If installing FreeMoCap in a 3.12 environment doesn't work for you, then try it with a different python version and see if that helps.
 
 ## Check your FreeMoCap Version
 FreeMoCap is under active development, and we try to address bugs as quickly as we can. It is always best to install the latest version of the software. If a prior installation isn't working, you can update versions by running `pip install freemocap --upgrade`. 

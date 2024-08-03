@@ -10,6 +10,6 @@ You might find it helpful to have USB extension cables and tripods to set up the
 
 ## 2. Necessary Software
 
-All of the packages needed for reconstructing movement data are included in the FreeMoCap software, with the exception of Blender, which is a free software that we recommend downloading from https://blender.org. Blender will be used at the end of the reconstruction process to create a Blender scene. If users want to explore the Jupyter notebooks generated with each recording, they'll need to install either VS Code or JupyterLab, and we can provide links to those resources.
+All of the packages needed for reconstructing movement data are included in the FreeMoCap software, with the exception of Blender, which is a free software that we recommend downloading from [https://blender.org](https://blender.org). Blender will be used at the end of the reconstruction process to create a Blender scene. If users want to explore the Jupyter notebooks generated with each recording, they'll need to install either VS Code or JupyterLab, and we can provide links to those resources.
 
 For now, the only way to install FreeMoCap is through a terminal, and we recommend using a virtual environment management software like Anaconda. Soon, we will include an option for downloading the software directly from the website. We'll have a section for the installation process and standard troubleshooting in another section.
