@@ -13,17 +13,18 @@ freemocap_data
 
 The contents of each subfolder will be described below. 
 
+> Changing location of FreeMoCap Data Folder
+> 
+> By default, the `freemocap_data` folder is stored in your home directory, but you can change the location from within FreeMoCap.
+> In the `Menu Bar`, choose `File -> Set Freemocap Data Folder Location`.
+> This will bring up a file dialog allowing you to select a new location for the folder.
+> To save your change, click `Save and Reboot` to save your choice, after which the gui will reboot.
+> Your new `freemocap_data` folder will now be active.
+>
+> ![change_freemocap_data_folder_location.png](../../images/assets/images/change_freemocap_data_folder_location.png)
+>
+> Changing the location of the `freemocap_data` folder in this way only sets a new location to use as the data folder, but does not copy any of the data from your previous `freemocap_data` folder. Any data you would like in the new location must be manually copied over.
 
-### Changing location of FreeMoCap Data Folder
-By default, the `freemocap_data` folder is stored in your home directory, but you can change the location from within FreeMoCap.
-In the `Menu Bar`, choose `File -> Set Freemocap Data Folder Location`.
-This will bring up a file dialog allowing you to select a new location for the folder.
-To save your change, click `Save and Reboot` to save your choice, after which the gui will reboot.
-Your new `freemocap_data` folder will now be active.
-
-![change_freemocap_data_folder_location.png](../../images/assets/images/change_freemocap_data_folder_location.png)
-
-Changing the location of the `freemocap_data` folder in this way only sets a new location to use as the data folder, but does not copy any of the data from your previous `freemocap_data` folder. Any data you would like in the new location must be manually copied over.
 
 ## Calibrations
 
@@ -35,7 +36,7 @@ The `calibrations` folder is created when you process your first calibration, so
 
 An example `calibrations` folder will look like:
 ```
-calibrations
+freemocap_data/calibrations
 ├── freemocap_sample_data_camera_calibration.toml
 ├── freemocap_test_data_camera_calibration.toml
 ├── recording_14_03_58_gmt-7_calibration_camera_calibration.toml
@@ -51,7 +52,7 @@ The `logs_info_and_settings` folder also contains `last successful_calibration.t
 
 An example `logs_info_and_settings` folder will look like:
 ```
-logs_info_and_settings
+freemocap_data/logs_info_and_settings
 ├── last_successful_calibration.toml
 ├── logs
 │   ├── log_11-06-2024-16_57_33.log
@@ -64,14 +65,16 @@ logs_info_and_settings
 
 The `recording_sessions` folder contains all the video and motion capture data recorded with FreeMoCap.
 The data is separated into different sessions, which may contain a single recording or a group of recordings.
+
 For videos recorded through the FreeMoCap GUI, each recording is grouped under a session that includes all recordings made during that GUI session.
 In the example below, `session_2024-06-27_15_07_36` contains two recordings: `recording_11_27_04_gmt-4` and `recording_11_27_32_gmt-4`.
+
 For videos imported into FreeMoCap, each recording goes directly into the `recording_sessions` folder. 
 For example, the `freemocap_sample_data` recording was imported, so it does not go inside a session folder.
 
 An example `recording_sessions` folder will look like: 
 ```
-recording_sessions
+freemocap_data/recording_sessions
 ├── freemocap_sample_data
 │   ├── annotated_videos
 │   ├── output_data
@@ -107,4 +110,4 @@ recording_sessions
             └── timestamps
 ```
 
-To see more information about the contents of a recording folder, see the [Data Format Guide](data_format.md)
+To see more information about the contents of a recording folder, see the [Data Format Guide](data_format.md).
