@@ -17,6 +17,8 @@ freemocap_sample_data
 └── synchronized_videos
 ```
 
+The contents of the folder described here are for a complete recording. Depending on your processing parameters, or if you encounter an error during processing, some of these files may be missing.
+
 >To get a copy of the sample data to follow along with this guide, you can:
 >1. Open FreeMoCap
 >2. Go to Data in the menu bar
@@ -44,6 +46,12 @@ The top level files in a recording folder, or the files that aren't in a subfold
 `freemocap_sample_data_camera_calibration.toml` is the calibration file used to process the recording. This is necessary for reprocessing the data, and can be useful in debugging quality issues in your data.
 
 ## Synchronized and Annotated Videos
+
+There are two folders of videos accompanying each recording, `synchronized_videos` and `annotated_videos`. 
+
+The `synchronized_videos` folder contains the videos that are used to run the motion capture pipeline. They are synchronized in that they each have the exact same number of frames. The synchronized videos and the `calibration.toml` are the input data that FreeMoCap uses to get motion capture data. You can always reprocess a recording if you have the `synchronized videos` and `calibration.toml`.
+
+The `annotated_videos` folder contains videos produced during processing. These videos are annotated with the pose estimation output, and are useful for diagnosing the quality of the 2D image data that the 3D data is triangulated from. The annotated videos are also synchronized, but should not be used as input for processing, as the annotations will interfere with the pose estimation models.
 
 ## Output Data folder
 
