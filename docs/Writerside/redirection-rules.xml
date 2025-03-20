@@ -34,4 +34,8 @@
         <description>Created after removal of "Doc Page Templates" from FreeMoCap Main Documentation</description>
         <accepts>Templates.html</accepts>
     </rule>
+    <rule id="installation-redirect">
+        <description>Redirect installation page from mkdocs to new location</description>
+        <accepts>installation.html</accepts>
+    </rule>
 </rules>
