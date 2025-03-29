@@ -62,8 +62,8 @@ and push `Enter`:
 conda create -n freemocap-env python=3.12 -y
 ```
 
-> This is a `conda` command `create`s a `-n`ew isolated `python` (version `=3.12`) environment named `freemocap-env`.
-> `-y` option automatically confirms the prompt to proceed with the environment setup.
+> This is a `conda` command creates a new isolated `python` (version `=3.12`) environment named `freemocap-env`.
+> The `-y` option automatically confirms the prompt to proceed with the environment setup.
 
 After creating the environment, activate it using:
 
@@ -72,6 +72,9 @@ conda activate freemocap-env
 ```
 
 Now your terminal is set to operate within the `freemocap-env` environment.
+
+> You will need to activate this environment whenever you open a new terminal.
+> If you have previously installed FreeMoCap and the `freemocap` command is not found, make sure you activate your environment with `conda activate freemocap-env` first
 
 </procedure>
 
@@ -99,7 +102,7 @@ Keep an eye on the Terminal window, as it will provide useful information as the
 
 > This command downloads a pre-compiled copy of `freemocap` hosted PyPi - https://pypi.org/project/freemocap/.
 > 
-> The pip package manager automatically fetches the latest stable binary distribution, which is often in the Wheel format (.whl). A "Wheel: is a built-package format that can speed up the installation process, as it does not require compiling the software from source.
+> The pip package manager automatically fetches the latest stable binary distribution, which is often in the Wheel format (.whl). A "Wheel: is a built-package format that can speed up the installation process, as it does not require compiling the software from source".
 </tab>
 <tab title = "Install from Source Code">
 
