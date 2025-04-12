@@ -1,4 +1,4 @@
-name: Build documentation
+name: Build Writerside docs site
 on:
   # If specified, the workflow will be triggered automatically once you push to the `main` branch.
   # Replace `main` with your branch's name
