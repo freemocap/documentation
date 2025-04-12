@@ -5,7 +5,7 @@ on:
   push:
     branches: ["main"]
     paths:
-      - 'docs/Writerside/**'
+#      - 'docs/Writerside/**'
   # Specify to run a workflow manually from the Actions tab on GitHub
   workflow_dispatch:
 
