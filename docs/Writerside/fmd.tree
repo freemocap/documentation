@@ -21,6 +21,8 @@
         <toc-element topic="multiprocessing.md"/>
         <toc-element topic="yolo_cropping.md"/>
         <toc-element topic="reprojection_filtering.md"/>
+        <toc-element topic="freemocap_data_folder_guide.md"/>
+        <toc-element topic="data_format.md"/>
         <toc-element topic="terminology.md"/>
     </toc-element>
     <toc-element toc-title="Troubleshooting">
