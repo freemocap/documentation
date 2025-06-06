@@ -43,3 +43,9 @@ Here's an example below.
 
 **If processing an external calibration recording/reprocessing an existing calibration recording:**
 
+![how_to_processing_calibration.png](how_to_processing_calibration.png)
+
+1. Go to the `Process Data` tab under the `Control Panel`
+2. Choose `Calibrate from Active Recording`
+3. Check the `Use Charuco as groundplane` checkbox
+4. Press `Run Calibration`
