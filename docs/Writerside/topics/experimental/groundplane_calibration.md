@@ -3,7 +3,10 @@
 ## What is ground plane calibration?
 Ground plane calibration sets the 3D world so that “up” (the Z axis) means up and the ground is where it should be.
 Instead of using a camera’s perspective to define the world (which can lead to the 3D data coming on oriented oddly), it uses a flat ChArUco board placed on the floor to set the origin and upright orientation.
-This helps the triangulated data come in with the subject’s feet on the ground and their body standing tall - as opposed to having to rotate the subject onto the floor in post-processing.
+This helps the triangulated data come in with the subject’s feet on the ground and their body standing tall - as opposed to having to rotate the subject onto the floor in post-processing. Below is an example of the output 3d data that was reconstructed using 
+the ground plane calibration feature - with no additional rotations applied. 
+
+<video src="groundplane_example.mp4" />
 
 ## Quick Overview: How do I record a ground plane calibration?
 Overall, the process is relatively similar to how you record our default calibration! There are two key differences:
