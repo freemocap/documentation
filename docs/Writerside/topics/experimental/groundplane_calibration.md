@@ -1,4 +1,8 @@
 # Ground Plane Calibration
+> Ground plane calibration is a feature-in-progress, which means it is available only by installing FreeMoCap from
+> source and switching to the 'charuco_groundplane' branch
+{style = "note"}
+>
 
 ## What is ground plane calibration?
 Ground plane calibration sets the 3D world so that “up” (the Z axis) means up and the ground is where it should be.
