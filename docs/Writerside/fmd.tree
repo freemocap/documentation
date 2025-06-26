@@ -19,6 +19,7 @@
         <toc-element topic="resources_index.md"/>
         <toc-element topic="detailed_setup.md"/>
         <toc-element topic="multiprocessing.md"/>
+        <toc-element topic="synchronization.md"/>
         <toc-element topic="yolo_cropping.md"/>
         <toc-element topic="reprojection_filtering.md"/>
         <toc-element topic="terminology.md"/>
