@@ -12,14 +12,11 @@ We follow a “Universal Design” development philosophy, with the goal of crea
 
 A high-quality, minimal-cost motion capture system would be a transformative tool for a wide range of communities - including 3d animators, game designers, athletes, coaches, performers, scientists, engineers, clinicians, and doctors. We hope to create a system that brings new technological capacity to these groups while also building bridges between them.
 
-<center>
 **Everyone has a reason to record human movement**
 
 **We want to help them do it**
 
 ✨💀✨
-</center>
-
 
 <video src="https://youtu.be/WW_WpMcbzns?si=ivAJ3StoCUmVK-zR" mini-player="true" preview-src="hero-video-image.png"/>
 
