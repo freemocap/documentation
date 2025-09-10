@@ -22,6 +22,7 @@
         <toc-element topic="yolo_cropping.md"/>
         <toc-element topic="reprojection_filtering.md"/>
         <toc-element topic="terminology.md"/>
+        <toc-element topic="groundplane_calibration.md"/>
     </toc-element>
     <toc-element toc-title="Troubleshooting">
         <toc-element topic="installation_troubleshooting.md"/>
@@ -40,6 +41,5 @@
         <toc-element topic="bug_report.md"/>
     </toc-element>
     <toc-element toc-title="Experimental">
-        <toc-element topic="groundplane_calibration.md"/>
     </toc-element>
 </instance-profile>
