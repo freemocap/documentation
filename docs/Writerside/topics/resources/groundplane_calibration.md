@@ -73,6 +73,8 @@ in looking at the data viewer in the FreeMoCap GUI - as you can see in the examp
 
 ![groundplane_oriented_data.png](groundplane_oriented_data.png)
 
+The output calibration toml now also has a boolean in the `metadata` section that lets you know whether the a ground plane calibration was used as well. 
+
 ## Possible Errors
 If the ground plane calibration fails, the software will **instead use the default calibration**. If ground plane calibration
 fails, there should be a pop-up window letting you know and giving you a reason why. There are a couple of 
