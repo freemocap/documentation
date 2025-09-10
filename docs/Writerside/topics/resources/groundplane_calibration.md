@@ -1,8 +1,4 @@
 # Ground Plane Calibration
-> Ground plane calibration is a feature-in-progress, which means it is available only by installing FreeMoCap from
-> source and switching to the 'charuco_groundplane' branch
-{style = "note"}
->
 
 ## What is ground plane calibration?
 Ground plane calibration sets the 3D world so that “up” (the Z axis) means up and the ground is where it should be.
@@ -25,16 +21,16 @@ And that's the short-and-sweet version! Detailed instructions follow below.
 
 ![image](how_to_recording_calibration.png)
 
-1. Choose the `Record Calibration Videos` option. Set all other parameters (e.g. square size) as normal
-2. Check the `Use Charuco as groundplane` checkbox and then proceed with recording your calibration according to the instructions above
+1. Choose the `Record Calibration Videos` option. Set all other parameters (e.g. square size, board choice) as normal.
+2. Check the `Use initial board position as origin` checkbox and then proceed with recording your calibration according to the instructions above
 
 **B. If processing an external calibration recording/reprocessing an existing calibration recording:**
 
 ![how_to_processing_calibration.png](how_to_processing_calibration.png)
 
 1. Go to the `Process Data` tab under the `Control Panel`
-2. Choose `Calibrate from Active Recording`
-3. Check the `Use Charuco as groundplane` checkbox
+2. Choose `Calibrate from Active Recording`. Set all other parameters (e.g. square size, board choice) as normal.
+3. Check the `Use initial Charuco board position as groundplane origin` checkbox
 4. Press `Run Calibration`
 
 
