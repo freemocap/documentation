@@ -21,5 +21,9 @@
 
 [Multiprocessing Parameter](multiprocessing.md)
 
-## Helpful Terminology:
+## File structure and data format:
+[FreeMoCap Data Folder](freemocap_data_folder_guide.md)
+[Data Format](data_format.md)
+
+## Helpful terminology:
 [Terminology](terminology.md)
