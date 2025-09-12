@@ -10,7 +10,7 @@
     <toc-element toc-title="Getting Started">
         <toc-element topic="getting_started_index.md"/>
         <toc-element topic="software_hardware_prerequisites.md"/>
-        <toc-element topic="installation.md"/>
+        <toc-element topic="installation.md" accepts-web-file-names-ref="installation-redirect"/>
         <toc-element topic="your_first_recording.md"/>
         <toc-element topic="single_camera_recording.md"/>
         <toc-element topic="multi_camera_calibration.md"/>
