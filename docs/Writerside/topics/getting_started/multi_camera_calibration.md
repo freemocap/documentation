@@ -34,7 +34,7 @@ We generally recommend using the 5x3 board for most applications. It has fewer s
             <img src="charuco_board_5x3_annotated.png" alt="5x3 Charuco board" width="300"/>
             <br/>
             <b>Download:</b><br/>
-            <a href="https://github.com/freemocap/freemocap/blob/main/freemocap/assets/charuco/charuco-pdf-files/charuco_board_5x3.png">PNG</a> | 
+            <a href="https://github.com/freemocap/freemocap/blob/d82c830b45ba894d8ae7683b1c9cb2fc22d9ae9f/freemocap/assets/charuco/charuco_board_5x3.png">PNG</a> | 
             <a href="https://github.com/freemocap/freemocap/blob/b0a0531f159369d39f02405a52020d482b8a2444/freemocap/assets/charuco/charuco_board_5x3.svg">SVG</a> | 
             <a href="https://github.com/freemocap/freemocap/blob/b0a0531f159369d39f02405a52020d482b8a2444/freemocap/assets/charuco/charuco_board_5x3_annotated.png">Annotated</a>
         </td>
@@ -42,8 +42,8 @@ We generally recommend using the 5x3 board for most applications. It has fewer s
             <img src="charuco_board_7x5.png" alt="7x5 Charuco board" width="300"/>
             <br/>
             <b>Download:</b><br/>
-            <a href="https://github.com/freemocap/freemocap/blob/main/freemocap/assets/charuco/charuco-pdf-files/charuco_board_7x5.png">PNG</a> | 
-            <a href="https://github.com/freemocap/freemocap/blob/main/freemocap/assets/charuco/charuco-pdf-files/charuco_board_7x5.svg">SVG</a> 
+            <a href="https://github.com/freemocap/freemocap/blob/b0a0531f159369d39f02405a52020d482b8a2444/freemocap/assets/charuco/charuco_board_7x5.png">PNG</a> | 
+            <a href="https://github.com/freemocap/freemocap/blob/b0a0531f159369d39f02405a52020d482b8a2444/freemocap/assets/charuco/charuco_board_7x5.svg">SVG</a> 
         </td>
     </tr>
 </table>
