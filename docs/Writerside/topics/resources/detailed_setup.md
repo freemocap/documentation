@@ -1,4 +1,4 @@
-# Detailed Setup Guide
+# Mocap Tips and Tricks
 
 While FreeMoCap can record anywhere that's big enough to capture your entire body on video, some places and set ups will give better results than others. The tips below will help you configure your space to get the best recordings, whether you're working with high-end gear or simple webcams. 
 

@@ -26,12 +26,25 @@ We generally recommend using the 5x3 board for most applications. It has fewer s
 
 <table>
     <tr>
-        <th>5x3 (3 rows, 5 columns)</th>
-        <th>7x5 (5 rows, 7 columns)</th>
+        <th>5x3 Charuco Board (5 columns, 3 rows)</th>
+        <th>7x5 Charuco Board (7 columns, 5 rows)</th>
     </tr>
     <tr>
-        <td><img src="charuco_board_5x3_annotated.png" alt="5x3 Charuco board" width="300"/></td>
-        <td><img src="charuco_board_7x5.png" alt="7x5 Charuco board" width="300"/></td>
+        <td align="center">
+            <img src="charuco_board_5x3_annotated.png" alt="5x3 Charuco board" width="300"/>
+            <br/>
+            <b>Download:</b><br/>
+            <a href="https://github.com/freemocap/freemocap/blob/main/freemocap/assets/charuco/charuco-pdf-files/charuco_board_5x3.png">PNG</a> | 
+            <a href="https://github.com/freemocap/freemocap/blob/b0a0531f159369d39f02405a52020d482b8a2444/freemocap/assets/charuco/charuco_board_5x3.svg">SVG</a> | 
+            <a href="https://github.com/freemocap/freemocap/blob/b0a0531f159369d39f02405a52020d482b8a2444/freemocap/assets/charuco/charuco_board_5x3_annotated.png">Annotated</a>
+        </td>
+        <td align="center">
+            <img src="charuco_board_7x5.png" alt="7x5 Charuco board" width="300"/>
+            <br/>
+            <b>Download:</b><br/>
+            <a href="https://github.com/freemocap/freemocap/blob/main/freemocap/assets/charuco/charuco-pdf-files/charuco_board_7x5.png">PNG</a> | 
+            <a href="https://github.com/freemocap/freemocap/blob/main/freemocap/assets/charuco/charuco-pdf-files/charuco_board_7x5.svg">SVG</a> 
+        </td>
     </tr>
 </table>
 
