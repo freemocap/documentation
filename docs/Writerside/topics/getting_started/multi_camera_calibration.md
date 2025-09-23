@@ -49,7 +49,7 @@ We generally recommend using the 5x3 board for most applications. It has fewer s
 </table>
 
 ## Setting up Cameras
-To get a multiple camera recording, you'll need multiple cameras set up and connected to your computer. There's detailed instructions on multiple camera setups in the [Detailed Setup Guide](detailed_setup.md), but for now it will suffice to have two or more (three or more is best) cameras connected directly to your camera. We don't recommend using a USB hub to connect cameras. The cameras should be set up so they all see the subject at the same time, and have a 40-60 degree angle between each camera from the subject's viewpoint.
+To get a multiple camera recording, you'll need multiple cameras set up and connected to your computer. There's detailed instructions on multiple camera setups in the [Detailed Setup Guide](detailed_setup.md), but for now it will suffice to have two or more (three or more is best) cameras connected directly to your computer. We don't recommend using a USB hub to connect cameras. The cameras should be set up so they all see the subject at the same time, and have a 40-60 degree angle between each camera from the subject's viewpoint.
 
 ## Using the Charuco board to set the recording origin
 By checking the `Use initial board position` checkbox, you can use the Charuco board to define the axes of the 3D world, so that the reconstructed data comes in with the person oriented 'up' and standing on the ground.
