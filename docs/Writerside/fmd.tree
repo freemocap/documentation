@@ -42,5 +42,6 @@
         <toc-element topic="Updating-Documentation.md"/>
         <toc-element topic="feature_request.md"/>
         <toc-element topic="bug_report.md"/>
+        <toc-element topic="testing_procedure_for_PRs.md"
     </toc-element>
 </instance-profile>
