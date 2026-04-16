@@ -10,7 +10,7 @@
 </procedure>
 
 ## Preparing the Charuco Board
-To perform a multi-camera calibration, you'll need to print out a [Charuco board image](https://github.com/freemocap/freemocap/blob/main/freemocap/assets/charuco/charuco_board_image.png). 
+To perform a multi-camera calibration, you'll need to print out a [Charuco board image](https://github.com/freemocap/freemocap/blob/main/freemocap/assets/charuco/charuco_board_5x3.png). 
 
 For smaller spaces, a simple printout from a standard printer should work just fine. Make sure to mount the printout on something rigid like cardboard - the calibration process requires a *flat* charuco board. 
 
