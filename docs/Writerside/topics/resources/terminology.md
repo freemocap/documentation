@@ -19,13 +19,13 @@ The ChArUco is a known object that is easily detected in images,
 and allows the software to figure out where the camera is in relation to the board 
 and correct for distortions from the camera.
 
-[Link to a section of the 'braindump' video discussing capture volume calibration](https://www.youtube.com/watch?v=GxKmyKdnTy0&t=1615s)
+[Link to a section of the 'braindump' video discussing the ChArUco board](https://www.youtube.com/watch?v=GxKmyKdnTy0&t=1615s)
 
 ## Mediapipe
 
 An open source machine learning library from Google. Mediapipe is the default pose estimation solution for FreeMoCap.
 
-[Mediapipe Documentation](https://google.github.io/mediapipe/solutions/holistic)
+[Mediapipe Documentation](https://chuoling.github.io/mediapipe/solutions/holistic.html)
 
 ## YOLO
 

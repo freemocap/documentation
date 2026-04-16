@@ -2,7 +2,7 @@
 
 ## Write bug reports with detail, background, and sample code
 
-[This is an example](http://stackoverflow.com/q/12488905/180626) of a "great" bug report.
+File a bug report with us by creating a new[GitHub issue in our repo](https://github.com/freemocap/freemocap/issues/new?template=bug_report.md).
 
 **Great Bug Reports** tend to have:
 

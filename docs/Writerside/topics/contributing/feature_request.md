@@ -1,6 +1,6 @@
 # Feature Requests
 
-We welcome new ideas and feature requests from the community! To propose a new feature or enhancement, please [open a new issue](https://github.com/freemocap/freemocap/issues/new) with the following details:
+We welcome new ideas and feature requests from the community! To propose a new feature or enhancement, please [open a new issue](https://github.com/freemocap/freemocap/issues/new?template=feature_request.md) with the following details:
 
 - A clear and concise description of the feature
 - The problem you're trying to solve or the goal you want to achieve

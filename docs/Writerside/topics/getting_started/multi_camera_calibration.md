@@ -10,13 +10,13 @@
 </procedure>
 
 ## Preparing the Charuco Board
-To perform a multi-camera calibration, you'll need to print out a [Charuco board image](https://github.com/freemocap/freemocap/blob/main/freemocap/assets/charuco/charuco_board_image.png). 
+To perform a multi-camera calibration, you'll need to print out a [Charuco board image](https://github.com/freemocap/freemocap/blob/main/freemocap/assets/charuco/charuco_board_5x3.png). 
 
 For smaller spaces, a simple printout from a standard printer should work just fine. Make sure to mount the printout on something rigid like cardboard - the calibration process requires a *flat* charuco board. 
 
 For larger spaces, you might need to print this on a larger poster board so that it can be seen well by the cameras.
 
-If you do not have access to a poster printer, you can assemble a larger board using [these PDF template]( https://github.com/freemocap/freemocap/tree/main/freemocap/assets/charuco/charuco-pdf-files)
+If you do not have access to a poster printer, you can assemble a larger board using [these PDF template]( https://github.com/freemocap/freemocap/tree/main/freemocap/assets/charuco/charuco-pdf-tiles)
  (just be sure to be accurate when cutting and assembling the pieces!)
 
 ### Charuco Board Types
@@ -49,7 +49,7 @@ We generally recommend using the 5x3 board for most applications. It has fewer s
 </table>
 
 ## Setting up Cameras
-To get a multiple camera recording, you'll need multiple cameras set up and connected to your computer. There's detailed instructions on multiple camera setups in the [Detailed Setup Guide](detailed_setup.md), but for now it will suffice to have two or more (three or more is best) cameras connected directly to your camera. We don't recommend using a USB hub to connect cameras. The cameras should be set up so they all see the subject at the same time, and have a 40-60 degree angle between each camera from the subject's viewpoint.
+To get a multiple camera recording, you'll need multiple cameras set up and connected to your computer. There's detailed instructions on multiple camera setups in the [Mocap Tips and Tricks](detailed_setup.md), but for now it will suffice to have two or more (three or more is best) cameras connected directly to your camera. We don't recommend using a USB hub to connect cameras. The cameras should be set up so they all see the subject at the same time, and have a 40-60 degree angle between each camera from the subject's viewpoint.
 
 ## Using the Charuco board to set the recording origin
 By checking the `Use initial board position` checkbox, you can use the Charuco board to define the axes of the 3D world, so that the reconstructed data comes in with the person oriented 'up' and standing on the ground.
