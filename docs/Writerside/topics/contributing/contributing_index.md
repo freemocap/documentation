@@ -7,13 +7,13 @@ This document will help you understand how to contribute to the project, whether
 
 ## Reporting Bugs 
 
-Your feedback is invaluable in improving FreeMoCap. In this section, you'll learn how to report bugs and suggest new features for the project.
+Your feedback is invaluable in improving FreeMoCap. In this section, you'll learn how to report bugs and suggest new features for the project. To report a bug, [file a new bug report](https://github.com/freemocap/freemocap/issues/new?template=bug_report.md) and let us know what happened, what you expected to happen, and how to reproduce the issue.
 
 For details, see our [Bug Report](bug_report.md) guide
 
 ## Suggesting Features
 
-We welcome your ideas for new features or improvements to FreeMoCap. To suggest a feature, [open a new issue](https://github.com/freemocap/freemocap/issues/new) and describe the feature, its benefits, and any potential challenges in implementing it.
+We welcome your ideas for new features or improvements to FreeMoCap. To suggest a feature, [open a new feature request](https://github.com/freemocap/freemocap/issues/new?template=feature_request.md) and describe the feature, its benefits, and any potential challenges in implementing it.
 
 For details, see our [Feature Request](feature_request.md)  guide
 
