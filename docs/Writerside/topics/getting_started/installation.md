@@ -97,7 +97,7 @@ With any luck, the GUI window should pop up!
 
 Keep an eye on the Terminal window, as it will provide useful information as the software runs.
 
-> This command downloads a pre-compiled copy of `freemocap` hosted PyPi - https://pypi.org/project/freemocap/.
+> This command downloads a pre-compiled copy of `freemocap` hosted on [PyPi](https://pypi.org/project/freemocap/).
 > 
 > The pip package manager automatically fetches the latest stable binary distribution, which is often in the Wheel format (.whl). A "Wheel: is a built-package format that can speed up the installation process, as it does not require compiling the software from source.
 </tab>
