@@ -16,7 +16,7 @@ For smaller spaces, a simple printout from a standard printer should work just f
 
 For larger spaces, you might need to print this on a larger poster board so that it can be seen well by the cameras.
 
-If you do not have access to a poster printer, you can assemble a larger board using [these PDF template]( https://github.com/freemocap/freemocap/tree/main/freemocap/assets/charuco/charuco-pdf-files)
+If you do not have access to a poster printer, you can assemble a larger board using [these PDF template]( https://github.com/freemocap/freemocap/tree/main/freemocap/assets/charuco/charuco-pdf-tiles)
  (just be sure to be accurate when cutting and assembling the pieces!)
 
 ### Charuco Board Types
