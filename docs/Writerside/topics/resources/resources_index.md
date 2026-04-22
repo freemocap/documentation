@@ -15,7 +15,7 @@
 
 ## Details on parameter options:
 
-[Reprojection Filtering Parameters](reprojection_filtering.md)
+[Reprojection Filtering Parameters](triangulation.md)
 
 [YOLO Cropping Parameter](yolo_cropping.md)
 
